@@ -1,0 +1,20 @@
+{
+  "name": "express-uwu-rest",
+  "version": "1.0.0",
+  "description": "Rest-Services für den Owofizierer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "debug": "node src/server.js DEBUG",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/StarAppeal/express-uwu-rest"
+  },
+  "author": "tsomic, starappeal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
