@@ -16,7 +16,7 @@ var fizieren = function(str) {
                 else if (c.toLowerCase() == 'n' & i < str.length) {
                     if (isVowel(str[i+1])) {
                         if (c == 'n') {c = 'ny'}
-                        else if (c == 'N') {c = 'NY'}
+                        else if (c == 'N' && str[i+1].toUpperCase() == str[i+1]) {c = 'NY'}
                     }
                 }
             }
