@@ -35,7 +35,7 @@ tiny.set(33, "ᵎ");
 var fizieren = function (str) {
   let smol = ''
   str.toLowerCase().split('').forEach(function(c) {
-	  // @tsomic, bist du dumm? Wieso hast du kein Default Verhalten eingefügt? :(
+	  // @tsomic, bist du doof? Wieso hast du kein Default Verhalten eingefügt? :(
 	  if (!tiny.has(c.charCodeAt(0))) smol += c; 
 		else smol += tiny.get(c.charCodeAt(0))
   })
