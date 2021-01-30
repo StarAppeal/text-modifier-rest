@@ -12,6 +12,11 @@ router.post("/winzi", function (req, res, next) {
   res.status(200).send(compute(req, fizierer.winzi));
 });
 
+router.post("/emoji", function (req, res, next) {
+  console.log("starting emoji-action");
+  res.status(200).send(compute(req, fizierer.emoji));
+});
+
 function compute(req, fierFunction) {
   let result = {};
   let oldTime = new Date().getTime();
@@ -26,6 +31,8 @@ function compute(req, fierFunction) {
 }
 
 function getText(req) {
+  console.log("HÄ");
+  console.log(req);
   var text = req.body.text;
   console.log("Got text: " + text);
   return text;
