@@ -33,12 +33,15 @@ tiny.set(63, "ˀ");
 tiny.set(33, "ᵎ");
 
 var fizieren = function (str) {
-  let smol = ''
-  str.toLowerCase().split('').forEach(function(c) {
-	  if (!tiny.has(c.charCodeAt(0))) smol += c; 
-		else smol += tiny.get(c.charCodeAt(0))
-  })
-  return smol
-}
+  let smol = "";
+  str
+    .toLowerCase()
+    .split("")
+    .forEach(function (c) {
+      if (!tiny.has(c.charCodeAt(0))) smol += c;
+      else smol += tiny.get(c.charCodeAt(0));
+    });
+  return smol;
+};
 
 module.exports = fizieren;
