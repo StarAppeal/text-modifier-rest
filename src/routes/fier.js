@@ -2,31 +2,36 @@ var express = require("express");
 var fizierer = require("../ifies");
 var router = express.Router();
 
-router.post("/owo", function (req, res, next) {
+router.post("/owo", async function (req, res, next) {
   console.log("starting owo-action");
-  res.status(200).send(compute(req, fizierer.owo));
+  res.status(200).send(await compute(req, fizierer.owo));
 });
 
-router.post("/winzi", function (req, res, next) {
+router.post("/winzi", async function (req, res, next) {
   console.log("starting tiny-action");
-  res.status(200).send(compute(req, fizierer.winzi));
+  res.status(200).send(await compute(req, fizierer.winzi));
 });
 
-router.post("/emoji", function (req, res, next) {
+router.post("/emoji", async function (req, res, next) {
   console.log("starting emoji-action");
-  res.status(200).send(compute(req, fizierer.emoji));
+  res.status(200).send(await compute(req, fizierer.emoji));
 });
 
-router.post("/spermi", function (req, res, next) {
+router.post("/spermi", async function (req, res, next) {
   console.log("starting spermi-action");
-  res.status(200).send(compute(req, fizierer.spermi));
+  res.status(200).send(await compute(req, fizierer.spermi));
 });
 
-function compute(req, fierFunction) {
+router.post("/translate", async function (req, res, next) {
+  console.log("starting translating-action");
+  res.status(200).send(await compute(req, fizierer.translate));
+});
+
+async function compute(req, fierFunction) {
   let result = {};
   let oldTime = new Date().getTime();
   let text = getText(req);
-  var fied = fierFunction(text);
+  var fied = await fierFunction(text);
   let timeNeeded = new Date().getTime() - oldTime;
   console.log("result is: " + fied);
   console.log("it took " + timeNeeded + "ms");
