@@ -1,4 +1,4 @@
-let utils = require("../utils/utils");
+let utils = require("../utils");
 let getLinks = utils.getLinks;
 let isVowel = utils.isVowel;
 
