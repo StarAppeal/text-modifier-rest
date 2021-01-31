@@ -31,8 +31,6 @@ function compute(req, fierFunction) {
 }
 
 function getText(req) {
-  console.log("HÄ");
-  console.log(req);
   var text = req.body.text;
   console.log("Got text: " + text);
   return text;
