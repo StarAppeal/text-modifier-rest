@@ -17,6 +17,11 @@ router.post("/emoji", function (req, res, next) {
   res.status(200).send(compute(req, fizierer.emoji));
 });
 
+router.post("/spermi", function (req, res, next) {
+  console.log("starting spermi-action");
+  res.status(200).send(compute(req, fizierer.spermi));
+});
+
 function compute(req, fierFunction) {
   let result = {};
   let oldTime = new Date().getTime();
