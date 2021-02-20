@@ -1,4 +1,4 @@
-const translate = require("@vitalets/google-translate-api");
+const translatte = require("translatte");
 
 const langs = [
   "en",
@@ -22,10 +22,10 @@ const fizieren = async (str) => {
 
 const translateShitty = async (str, langIndex = 0, tries = 0) => {
   try {
-    if (langIndex === langs.length || tries === 5) {
+    if (langIndex === langs.length) {
       return str;
     }
-    let result = await translate(str, { to: langs[langIndex] });
+    let result = await translatte(str, { to: langs[langIndex] });
     return translateShitty(result.text, langIndex + 1);
   } catch (error) {
     console.log(error);
