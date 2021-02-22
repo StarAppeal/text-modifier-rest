@@ -13,6 +13,7 @@ const alphabet = {
 var fizieren = function (str) {
   let result = "";
   for (char of str) {
+    //TODO: better way of handling this corner case?
     if (char === "F") {
       result += "PH";
       continue;
