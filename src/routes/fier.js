@@ -27,6 +27,11 @@ router.post("/translate", async function (req, res, next) {
   res.status(200).send(await compute(req, fizierer.translate));
 });
 
+router.post("/leet", async function (req, res, next) {
+  console.log("starting leeting-action");
+  res.status(200).send(await compute(req, fizierer.leet));
+});
+
 async function compute(req, fierFunction) {
   let result = {};
   let oldTime = new Date().getTime();
