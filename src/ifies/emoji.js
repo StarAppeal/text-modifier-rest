@@ -9,10 +9,11 @@ var fizieren = function (str) {
   let emojiArray;
   let emojified = "";
   for (word of words) {
+    let dbWord = db[word.toLowerCase()];
     emojified += word;
     emojis = "";
-    if (db[word]) {
-      emojiArray = JSON.parse(JSON.stringify(db[word]));
+    if (dbWord) {
+      emojiArray = JSON.parse(JSON.stringify(dbWord));
     } else {
       emojified += " ";
       continue;
