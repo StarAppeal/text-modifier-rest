@@ -3,36 +3,40 @@ const fizierer = require("../ifies");
 const router = express.Router();
 
 router.post("/owo", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
 
 router.post("/winzi", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
 
 router.post("/emoji", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
 
 router.post("/spermi", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
 
 router.post("/translate", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
 
 router.post("/fancy", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
 
 router.post("/leet", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
 
 router.post("/zalgo", async function (req, res, next) {
-  res.status(200).send(await compute(req));
+  defaultSend(res, req);
 });
+
+async function defaultSend(res, req) {
+  res.status(200).send(await compute(req));
+}
 
 async function compute(req) {
   const url = req.url.substring(1);
