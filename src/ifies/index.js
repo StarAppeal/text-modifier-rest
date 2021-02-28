@@ -5,6 +5,7 @@ let spermi = require("./spermi");
 let translate = require("./translate");
 let fancy = require("./fancy");
 let leet = require("./leet");
+let zalgo = require("./zalgo");
 
 module.exports = {
   owo: owo,
@@ -14,4 +15,5 @@ module.exports = {
   translate: translate,
   fancy: fancy,
   leet: leet,
+  zalgo: zalgo,
 };
