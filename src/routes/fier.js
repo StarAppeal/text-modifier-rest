@@ -30,6 +30,7 @@ router.post("/translate", async function (req, res, next) {
 router.post("/fancy", async function (req, res, next) {
   console.log("starting fancy-action");
   res.status(200).send(await compute(req, fizierer.fancy));
+});
 
 router.post("/leet", async function (req, res, next) {
   console.log("starting leeting-action");
