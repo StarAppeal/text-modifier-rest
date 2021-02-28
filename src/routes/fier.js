@@ -8,6 +8,12 @@ Object.keys(fizierer).forEach((f) => {
   });
 });
 
+router.post("/", async function (req, res) {
+  let result = {};
+  result.result = Object.keys(fizierer);
+  res.status(200).send(result);
+});
+
 async function compute(req) {
   const url = req.url.substring(1);
   console.log(`starting ${url}-action`);
