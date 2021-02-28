@@ -1,7 +1,7 @@
 let db = require("../utils/edb");
 const MAX_EMOJIS = 3; // Max number of emojis that get added after a word
 
-var fizieren = function (str) {
+var fizieren = function (str, params) {
   const words = str.split(" ");
   let numberEmojis;
   let emoji;

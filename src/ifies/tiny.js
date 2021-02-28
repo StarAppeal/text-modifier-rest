@@ -32,7 +32,7 @@ tiny.set(223, "ˢˢ");
 tiny.set(63, "ˀ");
 tiny.set(33, "ᵎ");
 
-var fizieren = function (str) {
+var fizieren = function (str, params) {
   let smol = "";
   str
     .toLowerCase()

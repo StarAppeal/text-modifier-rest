@@ -44,10 +44,11 @@ router.post("/zalgo", async function (req, res, next) {
 
 async function compute(req, fierFunction) {
   let result = {};
-  let oldTime = new Date().getTime();
-  let text = getText(req);
-  let fied = await fierFunction(text);
-  let timeNeeded = new Date().getTime() - oldTime;
+  const oldTime = new Date().getTime();
+  const text = getAttr(req, "text");
+  const params = getAttr(req, "params");
+  const fied = await fierFunction(text, params);
+  const timeNeeded = new Date().getTime() - oldTime;
   console.log("result is: " + fied);
   console.log("it took " + timeNeeded + "ms");
   result.result = fied;
@@ -55,10 +56,14 @@ async function compute(req, fierFunction) {
   return result;
 }
 
-function getText(req) {
-  let text = req.body.text;
-  console.log("Got text: " + text);
-  return text;
+function getAttr(req, attr) {
+  const attribute = req.body[attr];
+  if (!attribute) {
+    console.log(`Couln't get ${attr}`);
+    return undefined;
+  }
+  console.log(`Got ${attr}:` + JSON.stringify(attribute));
+  return attribute;
 }
 
 module.exports = router;
