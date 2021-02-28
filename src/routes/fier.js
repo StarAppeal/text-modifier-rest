@@ -27,6 +27,11 @@ router.post("/translate", async function (req, res, next) {
   res.status(200).send(await compute(req, fizierer.translate));
 });
 
+router.post("/fancy", async function (req, res, next) {
+  console.log("starting fancy-action");
+  res.status(200).send(await compute(req, fizierer.fancy));
+});
+
 async function compute(req, fierFunction) {
   let result = {};
   let oldTime = new Date().getTime();
