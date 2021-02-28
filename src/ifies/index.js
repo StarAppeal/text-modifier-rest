@@ -4,6 +4,7 @@ let emoji = require("./emoji");
 let spermi = require("./spermi");
 let translate = require("./translate");
 let fancy = require("./fancy");
+let leet = require("./leet");
 
 module.exports = {
   owo: owo,
@@ -12,4 +13,5 @@ module.exports = {
   spermi: spermi,
   translate: translate,
   fancy: fancy,
+  leet: leet,
 };

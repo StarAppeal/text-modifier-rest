@@ -1,6 +1,6 @@
-var express = require("express");
-var fizierer = require("../ifies");
-var router = express.Router();
+const express = require("express");
+const fizierer = require("../ifies");
+const router = express.Router();
 
 router.post("/owo", async function (req, res, next) {
   console.log("starting owo-action");
@@ -30,13 +30,17 @@ router.post("/translate", async function (req, res, next) {
 router.post("/fancy", async function (req, res, next) {
   console.log("starting fancy-action");
   res.status(200).send(await compute(req, fizierer.fancy));
+
+router.post("/leet", async function (req, res, next) {
+  console.log("starting leeting-action");
+  res.status(200).send(await compute(req, fizierer.leet));
 });
 
 async function compute(req, fierFunction) {
   let result = {};
   let oldTime = new Date().getTime();
   let text = getText(req);
-  var fied = await fierFunction(text);
+  let fied = await fierFunction(text);
   let timeNeeded = new Date().getTime() - oldTime;
   console.log("result is: " + fied);
   console.log("it took " + timeNeeded + "ms");
@@ -46,7 +50,7 @@ async function compute(req, fierFunction) {
 }
 
 function getText(req) {
-  var text = req.body.text;
+  let text = req.body.text;
   console.log("Got text: " + text);
   return text;
 }
