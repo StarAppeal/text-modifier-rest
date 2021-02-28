@@ -10,7 +10,7 @@ const alphabet = {
   t: "7",
 };
 
-var fizieren = function (str) {
+var fizieren = function (str, params) {
   let result = "";
   for (char of str) {
     //TODO: better way of handling this corner case?

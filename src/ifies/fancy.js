@@ -59,7 +59,7 @@ fancy.set(214, "𝒪ℰ");
 fancy.set(220, "𝒰ℰ");
 fancy.set(223, "𝓈𝓈");
 
-var fizieren = function (str) {
+var fizieren = function (str, params) {
   let fancyfied = "";
   str.split("").forEach(function (c) {
     if (!fancy.has(c.charCodeAt(0))) fancyfied += c;

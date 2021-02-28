@@ -1,4 +1,4 @@
-var fizieren = function (str) {
+var fizieren = function (str, params) {
   return str;
 };
 

@@ -15,7 +15,7 @@ const langs = [
   "de",
 ];
 
-const fizieren = async (str) => {
+const fizieren = async (str, params) => {
   let result = await translateShitty(str);
   return result;
 };

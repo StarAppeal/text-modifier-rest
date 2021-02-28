@@ -2,7 +2,7 @@ let utils = require("../utils");
 let getLinks = utils.getLinks;
 let isVowel = utils.isVowel;
 
-var fizieren = function (str) {
+var fizieren = function (str, params) {
   let indices = getLinks(str);
   let owofiziert = "";
   for (let i = 0; i < str.length; i++) {
