@@ -5,7 +5,6 @@ var fizieren = function (str, params) {
     params.intensity !== undefined ? params.intensity : DEFAULT_INTENSITY;
   if (intensity < 0 || intensity > 100 || typeof intensity === "string")
     return "Invalid intensity param";
-  console.log(params.intensity);
   let zalgofied = "";
   str.split("").forEach(function (c) {
     zalgofied += c + getZalgoString(intensity);

@@ -44,6 +44,7 @@ router.post("/zalgo", async function (req, res, next) {
 
 async function compute(req, fierFunction) {
   let result = {};
+  console.log(req.body);
   const oldTime = new Date().getTime();
   const text = getAttr(req, "text");
   const params = getAttr(req, "params");
@@ -62,7 +63,6 @@ function getAttr(req, attr) {
     console.log(`Couldn't get ${attr}`);
     return undefined;
   }
-  console.log(`Got ${attr}:` + JSON.stringify(attribute));
   return attribute;
 }
 
