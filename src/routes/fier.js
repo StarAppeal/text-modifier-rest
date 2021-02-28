@@ -37,6 +37,11 @@ router.post("/leet", async function (req, res, next) {
   res.status(200).send(await compute(req, fizierer.leet));
 });
 
+router.post("/zalgo", async function (req, res, next) {
+  console.log("starting zalgo-action");
+  res.status(200).send(await compute(req, fizierer.zalgo));
+});
+
 async function compute(req, fierFunction) {
   let result = {};
   let oldTime = new Date().getTime();
