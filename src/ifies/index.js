@@ -1,5 +1,5 @@
 let owo = require("./owo");
-let winzi = require("./tiny");
+let winzi = require("./winzi");
 let emoji = require("./emoji");
 let spermi = require("./spermi");
 let translate = require("./translate");

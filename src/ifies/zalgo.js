@@ -2,7 +2,9 @@ const DEFAULT_INTENSITY = 2;
 
 var fizieren = function (str, params) {
   const intensity =
-    params.intensity !== undefined ? params.intensity : DEFAULT_INTENSITY;
+    params && params.intensity !== undefined
+      ? params.intensity
+      : DEFAULT_INTENSITY;
   if (intensity < 0 || intensity > 100 || typeof intensity === "string")
     return "Invalid intensity param";
   let zalgofied = "";

@@ -3,46 +3,41 @@ const fizierer = require("../ifies");
 const router = express.Router();
 
 router.post("/owo", async function (req, res, next) {
-  console.log("starting owo-action");
-  res.status(200).send(await compute(req, fizierer.owo));
+  res.status(200).send(await compute(req));
 });
 
 router.post("/winzi", async function (req, res, next) {
-  console.log("starting tiny-action");
-  res.status(200).send(await compute(req, fizierer.winzi));
+  res.status(200).send(await compute(req));
 });
 
 router.post("/emoji", async function (req, res, next) {
-  console.log("starting emoji-action");
-  res.status(200).send(await compute(req, fizierer.emoji));
+  res.status(200).send(await compute(req));
 });
 
 router.post("/spermi", async function (req, res, next) {
-  console.log("starting spermi-action");
-  res.status(200).send(await compute(req, fizierer.spermi));
+  res.status(200).send(await compute(req));
 });
 
 router.post("/translate", async function (req, res, next) {
-  console.log("starting translating-action");
-  res.status(200).send(await compute(req, fizierer.translate));
+  res.status(200).send(await compute(req));
 });
 
 router.post("/fancy", async function (req, res, next) {
-  console.log("starting fancy-action");
-  res.status(200).send(await compute(req, fizierer.fancy));
+  res.status(200).send(await compute(req));
 });
 
 router.post("/leet", async function (req, res, next) {
-  console.log("starting leeting-action");
-  res.status(200).send(await compute(req, fizierer.leet));
+  res.status(200).send(await compute(req));
 });
 
 router.post("/zalgo", async function (req, res, next) {
-  console.log("starting zalgo-action");
-  res.status(200).send(await compute(req, fizierer.zalgo));
+  res.status(200).send(await compute(req));
 });
 
-async function compute(req, fierFunction) {
+async function compute(req) {
+  const url = req.url.substring(1);
+  console.log(`starting ${url}-action`);
+  const fierFunction = fizierer[url];
   let result = {};
   console.log(req.body);
   const oldTime = new Date().getTime();
