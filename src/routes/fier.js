@@ -59,7 +59,7 @@ async function compute(req, fierFunction) {
 function getAttr(req, attr) {
   const attribute = req.body[attr];
   if (!attribute) {
-    console.log(`Couln't get ${attr}`);
+    console.log(`Couldn't get ${attr}`);
     return undefined;
   }
   console.log(`Got ${attr}:` + JSON.stringify(attribute));
