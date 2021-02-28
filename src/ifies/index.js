@@ -1,19 +1,10 @@
-let owo = require("./owo");
-let winzi = require("./winzi");
-let emoji = require("./emoji");
-let spermi = require("./spermi");
-let translate = require("./translate");
-let fancy = require("./fancy");
-let leet = require("./leet");
-let zalgo = require("./zalgo");
+var fs = require("fs");
+var files = fs.readdirSync("src/ifies");
+let modules = {};
+files.forEach((f) => {
+  if (f === "index.js") return;
+  const file = f.replace(/\.[^/.]+$/, "");
+  modules[file] = require(`./${file}`);
+});
 
-module.exports = {
-  owo: owo,
-  winzi: winzi,
-  emoji: emoji,
-  spermi: spermi,
-  translate: translate,
-  fancy: fancy,
-  leet: leet,
-  zalgo: zalgo,
-};
+module.exports = modules;
