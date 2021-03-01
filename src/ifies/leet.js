@@ -15,6 +15,7 @@ const alphabetAdvanced = {
   d: "<|",
   h: "|-|",
   k: "|<", // or /<
+  l: "|",
   m: "|\\/|",
   n: "|\\|",
   p: "|2",
@@ -59,8 +60,8 @@ var fizieren = function (str, params) {
       return str;
     }
     if (params.advanced) {
-      str = leetify(str, alphabetBasic);
-      return leetify(str, alphabetAdvanced);
+      str = leetify(str, alphabetAdvanced);
+      return leetify(str, alphabetBasic);
     }
   }
   return leetify(str, alphabetBasic);
