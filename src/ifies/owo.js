@@ -33,11 +33,19 @@ var fizieren = function (str, params) {
     }
     owofiziert += c;
   }
-  return owofiziert + " *schmiegt an*";
+  if (!params || (params && params.anschmiegen))
+    return owofiziert + " *schmiegt an*";
+  return owofiziert;
 };
 
 module.exports = {
   function: fizieren,
   name: "Owofy",
   show: true,
+  params: [
+    {
+      name: "anschmiegen",
+      type: "Boolean",
+    },
+  ],
 };
