@@ -25,4 +25,8 @@ var fizieren = function (str, params) {
   return result;
 };
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Leetify",
+  show: true,
+};

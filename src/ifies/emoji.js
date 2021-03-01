@@ -44,4 +44,8 @@ function getRandomOfArray(arr) {
   return selected;
 }
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Emojify",
+  show: true,
+};

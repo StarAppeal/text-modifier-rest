@@ -23,4 +23,14 @@ function getZalgoString(n) {
   return getZalgoChar() + getZalgoString(n - 1);
 }
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Zalgofy",
+  show: true,
+  params: [
+    {
+      name: "Intensity",
+      type: "Number",
+    },
+  ],
+};

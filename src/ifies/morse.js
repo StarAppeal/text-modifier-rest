@@ -68,4 +68,8 @@ var fizieren = function (str, params) {
     .join(" ");
 };
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Morsify",
+  show: true,
+};

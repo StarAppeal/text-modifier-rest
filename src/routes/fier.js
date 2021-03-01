@@ -8,16 +8,16 @@ Object.keys(fizierer).forEach((f) => {
   });
 });
 
-router.post("/", async function (req, res) {
+router.get("/", async function (req, res) {
   let result = {};
-  result.result = Object.keys(fizierer);
+  result.result = fizierer;
   res.status(200).send(result);
 });
 
 async function compute(req) {
   const url = req.url.substring(1);
   console.log(`starting ${url}-action`);
-  const fierFunction = fizierer[url];
+  const fierFunction = fizierer[url].function;
   let result = {};
   console.log(req.body);
   const oldTime = new Date().getTime();

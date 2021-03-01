@@ -36,4 +36,8 @@ var fizieren = function (str, params) {
   return owofiziert + " *schmiegt an*";
 };
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Owofy",
+  show: true,
+};
