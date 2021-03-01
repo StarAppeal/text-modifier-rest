@@ -68,4 +68,8 @@ var fizieren = function (str, params) {
   return fancyfied;
 };
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Fancify",
+  show: true,
+};

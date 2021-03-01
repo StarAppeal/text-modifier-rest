@@ -4,4 +4,8 @@ var fizieren = function (str, params) {
   return br.toBraille(str);
 };
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Braillify",
+  show: true,
+};

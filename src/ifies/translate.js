@@ -33,4 +33,8 @@ const translateShitty = async (str, langIndex = 0, tries = 0) => {
   }
 };
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "(Shitty) Translatify",
+  show: true,
+};

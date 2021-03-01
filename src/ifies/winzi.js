@@ -44,4 +44,8 @@ var fizieren = function (str, params) {
   return smol;
 };
 
-module.exports = fizieren;
+module.exports = {
+  function: fizieren,
+  name: "Tinify",
+  show: true,
+};
