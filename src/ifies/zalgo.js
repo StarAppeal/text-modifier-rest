@@ -5,7 +5,7 @@ var fizieren = function (str, params) {
     params && params.intensity !== undefined
       ? params.intensity
       : DEFAULT_INTENSITY;
-  if (intensity < 0 || intensity > 100 || typeof intensity === "string")
+  if (intensity < 0 || intensity > 100 || isNaN(intensity))
     return "Invalid intensity param";
   let zalgofied = "";
   str.split("").forEach(function (c) {
