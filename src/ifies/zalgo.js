@@ -29,7 +29,7 @@ module.exports = {
   show: true,
   params: [
     {
-      name: "Intensity",
+      name: "intensity",
       type: "Number",
     },
   ],
