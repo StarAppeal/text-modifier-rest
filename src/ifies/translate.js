@@ -12,21 +12,25 @@ const langs = [
   "ja",
   "hr",
   "nl",
-  "de",
 ];
 
 const fizieren = async (str, params) => {
-  let result = await translateShitty(str);
+  const n =
+    params && params.numberTranslations !== undefined
+      ? params.numberTranslations
+      : langs.length;
+  let result = await translateShitty(str, n);
   return result;
 };
 
-const translateShitty = async (str, langIndex = 0, tries = 0) => {
+const translateShitty = async (str, n, langIndex = 0, tries = 0) => {
   try {
-    if (langIndex === langs.length) {
-      return str;
+    if (langIndex === n) {
+      let result = await translatte(str, { to: "de" });
+      return result.text;
     }
     let result = await translatte(str, { to: langs[langIndex] });
-    return translateShitty(result.text, langIndex + 1);
+    return translateShitty(result.text, n, langIndex + 1);
   } catch (error) {
     console.log(error);
     return translateShitty(str, langIndex, tries + 1);
@@ -37,4 +41,10 @@ module.exports = {
   function: fizieren,
   name: "(Shitty) Translatify",
   show: true,
+  params: [
+    {
+      name: "numberTranslations",
+      type: "Number",
+    },
+  ],
 };
