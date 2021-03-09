@@ -5,9 +5,10 @@ var fier = require("./routes/fier");
 
 var application = express();
 
-var cors = require('cors')
-
-application.use(cors({credentials: true, origin: true}));
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
 
 application.use(express.json());
 
