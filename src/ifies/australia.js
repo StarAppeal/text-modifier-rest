@@ -5,7 +5,7 @@ australia.set(67, "Ɔ");
 australia.set(68, "p");
 australia.set(69, "Ǝ"); // nice
 australia.set(70, "Ⅎ");
-australia.set(71, "פ");
+australia.set(71, "ɓ");
 australia.set(72, "H");
 australia.set(73, "I");
 australia.set(74, "ſ");
