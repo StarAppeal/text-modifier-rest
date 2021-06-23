@@ -19,6 +19,8 @@ module.exports = {
     return /^[aeiou]$/i.test(s);
   },
   getKeyByValue(value, map) {
-    return [...map].find(([key, val]) => val == value)[0];
+    let result = [...map].find(([key, val]) => val == value);
+    if (result === undefined) return value;
+    return result[0];
   },
 };
