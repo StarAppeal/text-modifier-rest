@@ -2,19 +2,27 @@ let utils = require("../utils");
 let australia = utils.maps.australia;
 
 var fizieren = function (str, params) {
-  let upside = "";
+  const reverse = params && params.reverse !== undefined && params.reverse;
+  let result = "";
   str
     .split("")
     .reverse()
     .forEach(function (c) {
-      if (!australia.has(c)) upside += c;
-      else upside += australia.get(c);
+      if (reverse) result += utils.getKeyByValue(c, australia);
+      else if (!australia.has(c)) result += c;
+      else result += australia.get(c);
     });
-  return upside;
+  return result;
 };
 
 module.exports = {
   function: fizieren,
   name: "Australiafy",
   show: true,
+  params: [
+    {
+      name: "reverse",
+      type: "Boolean",
+    },
+  ],
 };
