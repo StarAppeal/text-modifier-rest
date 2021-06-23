@@ -1,4 +1,7 @@
+const maps = require("./maps");
+
 module.exports = {
+  maps,
   getLinks(str) {
     let matches = str.match(
       /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/gi
@@ -14,5 +17,8 @@ module.exports = {
   },
   isVowel(s) {
     return /^[aeiou]$/i.test(s);
+  },
+  getKeyByValue(value, map) {
+    return [...map].find(([key, val]) => val == value)[0];
   },
 };
