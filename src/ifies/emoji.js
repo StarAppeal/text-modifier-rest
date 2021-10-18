@@ -1,5 +1,17 @@
 let db = require("../utils/edb");
 const MAX_EMOJIS = 3; // Max number of emojis that get added after a word
+const numberMap = {
+  "0": "0️⃣",
+  "1": "1️⃣",
+  "2": "2️⃣",
+  "3": "3️⃣",
+  "4": "4️⃣",
+  "5": "5️⃣",
+  "6": "6️⃣",
+  "7": "7️⃣",
+  "8": "8️⃣",
+  "9": "9️⃣",
+};
 
 var fizieren = function (str, params) {
   const words = str.split(" ");
@@ -8,7 +20,7 @@ var fizieren = function (str, params) {
   let emojis;
   let emojiArray;
   let emojified = "";
-  for (word of words) {
+  for (let word of words) {
     let dbWord = db[word.toLowerCase()];
     emojified += word;
     emojis = "";
@@ -31,6 +43,11 @@ var fizieren = function (str, params) {
     }
     emojified += emojis + " ";
   }
+
+  emojified = emojified.replace(/[0-9]/g, function (m) {
+    return numberMap[m];
+  });
+
   return emojified.substring(0, emojified.length - 1);
 };
 
