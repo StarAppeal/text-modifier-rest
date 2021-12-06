@@ -1,3 +1,6 @@
+let utils = require("../utils");
+let getLinks = utils.getLinks;
+
 let db = require("../utils/edb");
 const MAX_EMOJIS = 3; // Max number of emojis that get added after a word
 const numberMap = {
@@ -44,9 +47,23 @@ var fizieren = function (str, params) {
     emojified += emojis + " ";
   }
 
-  emojified = emojified.replace(/[0-9]/g, function (m) {
-    return numberMap[m];
-  });
+  const indices = getLinks(emojified);
+  let re = /[0-9]/g;
+  while ((match = re.exec(emojified)) != null) {
+    let isInsideLink = false;
+    indices.forEach((value, key, map) => {
+      if (match.index > key && match.index <= key + value) {
+        isInsideLink = true;
+      }
+    });
+    if (isInsideLink) {
+      continue;
+    }
+    emojified =
+      emojified.substring(0, match.index) +
+      numberMap[emojified.charAt(match.index)] +
+      emojified.substring(match.index + 1);
+  }
 
   return emojified.substring(0, emojified.length - 1);
 };
