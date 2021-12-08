@@ -1,8 +1,8 @@
 const fs = require("fs");
 
 let config = {
-  inputFile: process.env.npm_config_inputFile,
-  outputFile: process.env.npm_config_outputFile,
+  inputFile: process.env.npm_config_inputfile,
+  outputFile: process.env.npm_config_outputfile,
 };
 
 console.log("inputFile: " + config.inputFile);
