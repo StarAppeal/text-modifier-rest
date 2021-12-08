@@ -20,13 +20,9 @@ fs.writeFileSync(config.outputFile, JSON.stringify(result));
 function transform(input) {
   let result = {};
   for (let prop in input) {
-    if (prop.includes(",")) {
-      let s = prop.split(",");
-      for (let i = 0; i < s.length; i++) {
-        result[s[i]] = input[prop];
-      }
-    } else {
-      result[prop] = input[prop];
+    let s = prop.split(",");
+    for (let i = 0; i < s.length; i++) {
+      result[s[i]] = input[prop];
     }
   }
   return result;
