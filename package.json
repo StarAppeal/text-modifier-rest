@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/server.js",
     "debug": "node src/server.js DEBUG",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transform": "node src/utils/scripts/transform.js"
   },
   "repository": {
     "type": "git",
