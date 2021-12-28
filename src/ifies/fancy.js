@@ -1,9 +1,9 @@
-let utils = require("../utils");
-let fancy = utils.maps.fancy;
+const utils = require("../utils");
+const fancy = utils.maps.fancy;
 
 var fizieren = function (str, params) {
   let fancyfied = "";
-  str.split("").forEach(function (c) {
+  str.split("").forEach((c) => {
     if (!fancy.has(c)) fancyfied += c;
     else fancyfied += fancy.get(c);
   });
