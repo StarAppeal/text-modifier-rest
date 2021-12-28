@@ -58,5 +58,6 @@ fancy.set("Ä", "𝒜ℰ");
 fancy.set("Ö", "𝒪ℰ");
 fancy.set("Ü", "𝒰ℰ");
 fancy.set("ß", "𝓈𝓈");
+fancy.set("ẞ", "𝒮𝒮");
 
 module.exports = fancy;
