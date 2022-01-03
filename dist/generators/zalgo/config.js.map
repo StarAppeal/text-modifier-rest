@@ -1,1 +1,0 @@
-{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/generators/zalgo/config.ts"],"names":[],"mappings":";;;;;AACA,gFAAwD;AACxD,4DAAmC;AAEnC,MAAM,MAAM,GAAoB;IAC9B,QAAQ,EAAE,mBAAQ;IAClB,KAAK,EAAE,sBAAsB;IAC7B,KAAK,EAAE,OAAO;IACd,MAAM,EAAE;QACN;YACE,KAAK,EAAE,YAAY;YACnB,KAAK,EAAE,WAAW;YAClB,IAAI,EAAE,mBAAS,CAAC,MAAM;SACvB;KACF;CACF,CAAC;AAEF,kBAAe,MAAM,CAAC"}
