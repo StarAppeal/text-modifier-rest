@@ -1,0 +1,1 @@
+{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/generators/australia/config.ts"],"names":[],"mappings":";;;;;AACA,gFAAwD;AACxD,4DAAmC;AAEnC,MAAM,MAAM,GAAoB;IAC9B,QAAQ,EAAE,mBAAQ;IAClB,KAAK,EAAE,WAAW;IAClB,KAAK,EAAE,WAAW;IAClB,MAAM,EAAE;QACN;YACE,KAAK,EAAE,YAAY;YACnB,KAAK,EAAE,SAAS;YAChB,IAAI,EAAE,mBAAS,CAAC,OAAO;SACxB;KACF;CACF,CAAC;AAEF,kBAAe,MAAM,CAAC"}
