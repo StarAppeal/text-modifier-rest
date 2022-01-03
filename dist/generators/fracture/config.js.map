@@ -1,1 +1,0 @@
-{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/generators/fracture/config.ts"],"names":[],"mappings":";;;;;AACA,gFAAwD;AACxD,4DAAmC;AAEnC,MAAM,MAAM,GAAoB;IAC9B,QAAQ,EAAE,mBAAQ;IAClB,KAAK,EAAE,kBAAkB;IACzB,KAAK,EAAE,UAAU;IACjB,MAAM,EAAE;QACN;YACE,KAAK,EAAE,MAAM;YACb,KAAK,EAAE,MAAM;YACb,IAAI,EAAE,mBAAS,CAAC,OAAO;SACxB;KACF;CACF,CAAC;AAEF,kBAAe,MAAM,CAAC"}

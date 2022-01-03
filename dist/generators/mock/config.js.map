@@ -1,1 +1,0 @@
-{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/generators/mock/config.ts"],"names":[],"mappings":";;;;;AACA,gFAAwD;AACxD,4DAAmC;AAEnC,MAAM,MAAM,GAAoB;IAC9B,QAAQ,EAAE,mBAAQ;IAClB,KAAK,EAAE,MAAM;IACb,KAAK,EAAE,MAAM;IACb,MAAM,EAAE;QACN;YACE,KAAK,EAAE,6BAA6B;YACpC,KAAK,EAAE,gBAAgB;YACvB,IAAI,EAAE,mBAAS,CAAC,OAAO;SACxB;KACF;CACF,CAAC;AAEF,kBAAe,MAAM,CAAC"}
