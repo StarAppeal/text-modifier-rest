@@ -1,23 +1,36 @@
 {
-  "name": "express-uwu-rest",
+  "name": "text-generator-rest",
   "version": "1.0.0",
-  "description": "Rest-Services für den Owofizierer",
+  "description": "Rest-Services for various text generations",
   "main": "server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "debug": "node src/server.js DEBUG",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "debug": "npm run build && npm run watch-debug",
+    "serve-debug": "nodemon --inspect dist/server.js DEBUG",
+    "serve": "node dist/server.js",
+    "start": "npm run serve",
+    "watch-debug": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run serve-debug\"",
+    "watch-node": "nodemon dist/server.js",
+    "watch-ts": "tsc -w",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "transform": "node src/utils/scripts/transform.js"
   },
   "repository": {
     "type": "git",
-    "url": "\u0016https://github.com/StarAppeal/express-uwu-rest"
+    "url": "\u0016https://github.com/StarAppeal/rest-text-manipulator"
   },
   "author": "tsomic, starappeal",
   "license": "MIT",
   "dependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.6",
     "braille": "^1.1.0",
+    "concurrently": "^6.5.1",
     "express": "^4.17.1",
-    "translatte": "^3.0.0"
+    "nodemon": "^2.0.15",
+    "translatte": "^3.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
   }
 }

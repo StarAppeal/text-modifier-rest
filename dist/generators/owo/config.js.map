@@ -1,0 +1,1 @@
+{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/generators/owo/config.ts"],"names":[],"mappings":";;;;;AACA,gFAAwD;AACxD,4DAAmC;AAEnC,MAAM,MAAM,GAAoB;IAC9B,QAAQ,EAAE,mBAAQ;IAClB,KAAK,EAAE,KAAK;IACZ,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE;QACN;YACE,KAAK,EAAE,aAAa;YACpB,KAAK,EAAE,QAAQ;YACf,IAAI,EAAE,mBAAS,CAAC,OAAO;SACxB;KACF;CACF,CAAC;AAEF,kBAAe,MAAM,CAAC"}
