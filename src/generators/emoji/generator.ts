@@ -1,6 +1,10 @@
 import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
 import { getLinks } from "../../utils";
-import db from "../../utils/edb";
+import fs from "fs";
+import stringSimilarity from "string-similarity";
+// import db from "../../utils/edb";
+
+let db = JSON.parse(fs.readFileSync("src/utils/edb_transformed.json", "utf8"));
 
 const MAX_EMOJIS = 3; // Max number of emojis that get added after a word
 const numberMap = {
@@ -23,11 +27,22 @@ export default function generate(request: GeneratorRequest) {
   let emojis;
   let emojiArray;
   let emojified = "";
+  const dbWords = Object.keys(db);
   for (let word of words) {
-    let dbWord = db[word.toLowerCase() as keyof typeof db];
+    let dbWord;
+    let strippedWord = removePunctuations(word.toLowerCase());
+    if (strippedWord.length >= 6) {
+      let bestMatch = stringSimilarity.findBestMatch(strippedWord, dbWords)
+        .bestMatch;
+      if (bestMatch.rating >= 0.7) {
+        dbWord = db[bestMatch.target as keyof typeof db];
+      }
+    } else {
+      dbWord = db[strippedWord as keyof typeof db];
+    }
     emojified += word;
     emojis = "";
-    if (dbWord) {
+    if (dbWord && dbWord.length) {
       emojiArray = JSON.parse(JSON.stringify(dbWord));
     } else {
       emojified += " ";
@@ -77,4 +92,8 @@ function getRandomOfArray(arr: string[]) {
   const selected = arr[index];
   arr.splice(index, 1);
   return selected;
+}
+
+function removePunctuations(str: string) {
+  return str.replace(/[,|.|!|?|;]+$/, "");
 }
