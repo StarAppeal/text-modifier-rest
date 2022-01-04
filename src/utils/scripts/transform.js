@@ -18,12 +18,20 @@ console.log("writing file");
 fs.writeFileSync(config.outputFile, JSON.stringify(result));
 
 function transform(input) {
-  let result = {};
-  for (let prop in input) {
-    let s = prop.split(",");
-    for (let i = 0; i < s.length; i++) {
-      result[s[i]] = input[prop];
-    }
+  const result = {};
+  const duplicates = [];
+  for (const [key, value] of Object.entries(input)) {
+    const keys = key.split(",");
+    keys.forEach((isolatedKey) => {
+      if (result[isolatedKey]) {
+        duplicates.push(isolatedKey)
+      }
+      result[isolatedKey] =
+        result[isolatedKey] && input[key].length
+          ? result[isolatedKey].concat(input[key])
+          : input[key];
+    });
   }
+  console.log(duplicates)
   return result;
 }
