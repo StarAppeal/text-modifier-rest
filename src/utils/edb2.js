@@ -130,7 +130,7 @@ module.exports =
         "😱",
         "🚀",
       ],
-    "abfassen,abhandeln,ausarbeiten,behandeln,besprechen,erörtern":
+    "abfassen,abhandeln,ausarbeiten,behandeln,erörtern":
       [
         "🍦",
         "🍧",
@@ -1129,12 +1129,6 @@ module.exports =
       ],
     "achsmacher,radmacher,radmaker,rädermacher,wagner":
       [],
-    "acht,achten,bann,bedenken,beispiel,berücksichtigen,denke,denken,denkmuster,denkt,denkungsart,denkweise,friedlosigkeit,klamüsern,leitvorstellung,muster,nachgrübeln,nachsinnen,paradigma,reflektieren,reichsacht,reichsbann,sichtweise,verfestung,vogelfreiheit,vorbild,wolfsfreiheit,überdenken,überlegen":
-      [
-        "💭",
-        "🤔",
-        "🤯",
-      ],
     "achtbar,anerkannt,anerkennenswert,beachtenswert,bewundernswert,bewunderungswürdig,dankenswert,ehrbar,einbringen,lobenswert,reputabel,reputierlich,rühmenswert,verdienen,verdienstlich,verdienstvoll,verdient":
       [],
     "achtbar,anerkennenswert,ansehnlich,beachtenswert,beachtlich,beträchtlich,erfreulich,erklecklich,nennenswert,ordentlich,respektabel,signifikant,stattlich,ziemlich":
@@ -5454,10 +5448,6 @@ module.exports =
       ],
     "ausgezeichnet,auszeichnen,außergewöhnlich,außerordentlich,besonders,bestens,dekorieren,exzeptionell,herausragend,höchstrangig,schnafte,splendid,trefflich,vortrefflich,vorzüglich,überragend":
       [],
-    "ausgezeichnet,außergewöhnlich,außerordentlich,bekanntermaßen,bekannterweise,bekanntlich,besonders,bestens,desgleichen,detto,dgl,dito,ebenso,exzeptionell,fein,gut,herausragend,höchstrangig,ja,manierlich,neben,nebst,plus,positiv,schnafte,schön,sowie,sowohl,splendid,trefflich,und,vortrefflich,vorzüglich,wie,zuzüglich,überragend":
-      [
-        "⛲",
-      ],
     "ausgrenzung,ausschließen,ausschluss,bann,bannfluch,bannstrahl,prohibieren,unterbinden,untersagen,untersagung,verbannung,verbieten,verbot,verdammung,verfemung,zensieren,zensurieren,ächtung":
       [
         "⛔",
@@ -5835,14 +5825,6 @@ module.exports =
     "außerordentlich,bedeutend,bombastisch,enorm,erheblich,erhebliche,exorbitant,extrem,fulminant,gewaltig,groß,immens,pompös,unglaublich,üppig":
       [],
     axel: [],
-    "babbele,babbeln,klönen,konversieren,parlieren,plaudern,plauschen,quasseln,quatern,quatschen,ratschen,rede,reden,referat,schnacken,vortrag":
-      [
-        "👁️‍🗨️",
-        "👄",
-        "💬",
-        "📞",
-        "🗣",
-      ],
     "baby,bambino,buschi,bébé,infant,kleinkind,kleinstkind,neugeborener,neugeborenes,putzerl,säugling,wickelkind,winzling,würmchen":
       [
         "🍼",
@@ -6567,32 +6549,6 @@ module.exports =
       [],
     "begann,beginnen,durchstarten,einleiten,loslegen,starten":
       [],
-    "begeben,gehe,gehen,hingehen,latschen,laufen":
-      [
-        "☝",
-        "⛽",
-        "🏃",
-        "👆",
-        "👈",
-        "👉",
-        "💨",
-        "🚃",
-        "🚆",
-        "🚈",
-        "🚉",
-        "🚕",
-        "🚗",
-        "🚘",
-        "🚙",
-        "🚚",
-        "🚥",
-        "🚦",
-        "🚲",
-        "🚴",
-        "🚵",
-        "🛴",
-        "🛵",
-      ],
     "begegnung,beisammensein,gesellschaft,hoggedse,miteinander,treff,treffen,versammlung,wiedersehen,zusammenkunft,zusammensein,zusammentreffen":
       [],
     "begehrenswert,begrüßenswert,erstrebenswert,erwünscht,gerngesehen,willkommen,wünschenswert":
@@ -8182,7 +8138,7 @@ module.exports =
       ],
     braunschweig:
       [],
-    "braut,dame,eva,evastochter,frau,frauensperson,frauenzimmer,ich,kalle,lady,mutti,perle,schnalle,sie,tante,trine,weib,weibsbild,weibsen,weibsperson,weibsstück":
+    "braut,dame,eva,evastochter,frau,frauensperson,frauenzimmer,kalle,lady,mutti,perle,schnalle,tante,trine,weib,weibsbild,weibsen,weibsperson,weibsstück":
       [
         "🌮",
         "🍫",
@@ -9055,7 +9011,7 @@ module.exports =
       [
         "🐕",
       ],
-    "dahinpreschen,düsen,eilen,fegen,fetzen,fitschen,fliegen,flitzen,funktionierend,funktionsfähig,galoppieren,ganz,gelaufen,hasten,hechten,heil,heile,hetzen,huschen,intakt,jagen,lauf,laufe,laufen,laufrad,laufschiene,lief,läuft,mängelfrei,pesen,pfeifen,preschen,rasen,rennen,sausen,schießen,schnellen,sprinten,spurten,stieben,stürmen,unbeschädigt,unversehrt,verlaufen,verläuft,wetzen,zischen":
+    "fegen,fetzen,fitschen,fliegen,funktionierend,funktionsfähig,galoppieren,ganz,heil,heile,hetzen,intakt,jagen,laufrad,laufschiene,mängelfrei,pesen,pfeifen,stieben,unbeschädigt,unversehrt,verlaufen,verläuft":
       [
         "⛹",
         "🎽",
@@ -9741,13 +9697,9 @@ module.exports =
       [],
     durchs:
       [],
-    "durchscheinend,durchsichtig,klar,klarer,transparent,ungetrübt":
-      [],
     "durchschnittlich,klassisch,typisch":
       [],
     "durchschnittlichkeit,gebräuchlichkeit,gewöhnlichkeit,normalität":
-      [],
-    "durchsichtigkeit,klarheit,lichtdurchlässigkeit,luzidität,transparenz":
       [],
     "durchspielen,erprobung,probe,proben,prüfung,test,versuch,üben":
       [],
@@ -11531,8 +11483,6 @@ module.exports =
     "gefühlt,scheinbar,virtuell":
       [],
     "gefüllt,voll":
-      [],
-    "gegangen,gehen,latschen,laufen":
       [],
     "gegensatz,gegenstimme,gegenthese,kontrapunkt":
       [],
@@ -15334,17 +15284,6 @@ module.exports =
         "👐",
         "🙌",
         "🧏",
-      ],
-    "sprache,sprechen,sprecherin,spricht":
-      [
-        "💬",
-        "📣",
-        "📻",
-        "🔊",
-        "🗣",
-        "😶",
-        "🙊",
-        "🤐",
       ],
     "stadt,städte,städten":
       [],
