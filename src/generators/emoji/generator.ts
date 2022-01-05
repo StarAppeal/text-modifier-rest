@@ -29,12 +29,34 @@ const numberMap = {
 export default function generate(request: GeneratorRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
-  const words = request.text.split(" ");
+  let textWithNumberEmojis = request.text;
+  const indices = getLinks(textWithNumberEmojis);
+  let re = /[0-9]/g;
+  let match: RegExpExecArray | null;
+  while ((match = re.exec(textWithNumberEmojis)) != null) {
+    let isInsideLink = false;
+    indices.forEach((value, key) => {
+      if (match.index > key && match.index <= key + value) {
+        isInsideLink = true;
+      }
+    });
+    if (isInsideLink) {
+      continue;
+    }
+    textWithNumberEmojis =
+      textWithNumberEmojis.substring(0, match.index) +
+      numberMap[
+        textWithNumberEmojis.charAt(match.index) as keyof typeof numberMap
+      ] +
+      textWithNumberEmojis.substring(match.index + 1);
+  }
+
+  const words = textWithNumberEmojis.split(" ");
   let numberEmojis;
   let emoji;
   let emojis;
   let emojiArray;
-  let emojified = "";
+  let result = "";
   const dbWords = Object.keys(emojiMap);
   for (let word of words) {
     let dbWord;
@@ -51,15 +73,12 @@ export default function generate(request: GeneratorRequest) {
       dbWord = emojiMap[emojiString.strippedString as keyof typeof emojiMap];
     }
 
-    emojified += emojiString.originalString.substring(
-      0,
-      emojiString.emojiIndex
-    );
+    result += emojiString.originalString.substring(0, emojiString.emojiIndex);
     emojis = "";
     if (dbWord && dbWord.length) {
       emojiArray = JSON.parse(JSON.stringify(dbWord));
     } else {
-      emojified += " ";
+      result += " ";
       continue;
     }
     numberEmojis = Math.floor(Math.random() * params.maxEmojis) + 1;
@@ -73,32 +92,13 @@ export default function generate(request: GeneratorRequest) {
         emojis += emoji;
       }
     }
-    emojified +=
+    result +=
       emojis +
       emojiString.originalString.substring(emojiString.emojiIndex) +
       " ";
   }
 
-  const indices = getLinks(emojified);
-  let re = /[0-9]/g;
-  let match: RegExpExecArray | null;
-  while ((match = re.exec(emojified)) != null) {
-    let isInsideLink = false;
-    indices.forEach((value, key) => {
-      if (match.index > key && match.index <= key + value) {
-        isInsideLink = true;
-      }
-    });
-    if (isInsideLink) {
-      continue;
-    }
-    emojified =
-      emojified.substring(0, match.index) +
-      numberMap[emojified.charAt(match.index) as keyof typeof numberMap] +
-      emojified.substring(match.index + 1);
-  }
-
-  return emojified.substring(0, emojified.length - 1);
+  return result.substring(0, result.length - 1);
 }
 
 function getRandomOfArray(arr: string[]) {
