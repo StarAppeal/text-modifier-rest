@@ -9,7 +9,10 @@ interface EmojiString {
   emojiIndex: number;
 }
 
-const MAX_EMOJIS = 2; // Max number of emojis that get added after a word
+const DEFAULT_PARAMS = {
+  maxEmojis: 2,
+};
+
 const numberMap = {
   "0": "0️⃣",
   "1": "1️⃣",
@@ -24,6 +27,8 @@ const numberMap = {
 };
 
 export default function generate(request: GeneratorRequest) {
+  const params = { ...DEFAULT_PARAMS, ...request.params };
+
   const words = request.text.split(" ");
   let numberEmojis;
   let emoji;
@@ -57,7 +62,7 @@ export default function generate(request: GeneratorRequest) {
       emojified += " ";
       continue;
     }
-    numberEmojis = Math.floor(Math.random() * MAX_EMOJIS) + 1;
+    numberEmojis = Math.floor(Math.random() * params.maxEmojis) + 1;
     emoji = "";
     if (emojiArray) {
       for (let i = 0; i < numberEmojis; i++) {
