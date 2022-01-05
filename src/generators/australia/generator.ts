@@ -1,6 +1,6 @@
 import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
 import australiaMap from "../../constants/maps/australia";
-import { getKeyByValue } from "../../utils";
+import { getKeyByValue } from "../../globals/generatorHelpers";
 
 const DEFAULT_PARAMS = {
   reverse: false,

@@ -1,5 +1,5 @@
 import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
-import { getLinks } from "../../utils";
+import { getLinks } from "../../globals/generatorHelpers";
 
 const NUZZLE_TEXT = "*schmiegt an*";
 const DEFAULT_PARAMS = {
