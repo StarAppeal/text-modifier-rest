@@ -4,7 +4,7 @@
   "description": "Rest-Services for various text generations",
   "main": "server.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && npm run-script transform --inputfile=src/utils/edb_raw.json --outputfile=dist/constants/edb.json",
     "debug": "npm run build && npm run watch-debug",
     "serve-debug": "nodemon --inspect dist/server.js DEBUG",
     "serve": "node dist/server.js",
