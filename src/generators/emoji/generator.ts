@@ -2,10 +2,16 @@ import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
 import { getLinks } from "../../utils";
 import fs from "fs";
 import stringSimilarity from "string-similarity";
-// import db from "../../utils/edb";
 
-let db = JSON.parse(fs.readFileSync("src/utils/edb_transformed.json", "utf8"));
+interface EmojiString {
+  strippedString: string;
+  originalString: string;
+  emojiIndex: number;
+}
 
+const db = JSON.parse(
+  fs.readFileSync("dist/constants/edb.json", "utf8")
+);
 const MAX_EMOJIS = 3; // Max number of emojis that get added after a word
 const numberMap = {
   "0": "0️⃣",
@@ -30,17 +36,23 @@ export default function generate(request: GeneratorRequest) {
   const dbWords = Object.keys(db);
   for (let word of words) {
     let dbWord;
-    let strippedWord = removePunctuations(word.toLowerCase());
-    if (strippedWord.length >= 6) {
-      let bestMatch = stringSimilarity.findBestMatch(strippedWord, dbWords)
-        .bestMatch;
+    const emojiString = removePunctuations(word);
+    if (emojiString.strippedString.length >= 6) {
+      let bestMatch = stringSimilarity.findBestMatch(
+        emojiString.strippedString,
+        dbWords
+      ).bestMatch;
       if (bestMatch.rating >= 0.7) {
         dbWord = db[bestMatch.target as keyof typeof db];
       }
     } else {
-      dbWord = db[strippedWord as keyof typeof db];
+      dbWord = db[emojiString.strippedString as keyof typeof db];
     }
-    emojified += word;
+
+    emojified += emojiString.originalString.substring(
+      0,
+      emojiString.emojiIndex
+    );
     emojis = "";
     if (dbWord && dbWord.length) {
       emojiArray = JSON.parse(JSON.stringify(dbWord));
@@ -59,7 +71,10 @@ export default function generate(request: GeneratorRequest) {
         emojis += emoji;
       }
     }
-    emojified += emojis + " ";
+    emojified +=
+      emojis +
+      emojiString.originalString.substring(emojiString.emojiIndex) +
+      " ";
   }
 
   const indices = getLinks(emojified);
@@ -94,6 +109,19 @@ function getRandomOfArray(arr: string[]) {
   return selected;
 }
 
-function removePunctuations(str: string) {
-  return str.replace(/[,|.|!|?|;]+$/, "");
+function removePunctuations(str: string): EmojiString {
+  const lowerStr = str.toLowerCase();
+  if (!/[,|.|!|?|;|(|)]/g.test(str)) {
+    return {
+      strippedString: lowerStr,
+      originalString: str,
+      emojiIndex: str.length,
+    };
+  }
+
+  return {
+    strippedString: lowerStr.replace(/[,|.|!|?|;|(|)]/g, ""),
+    originalString: str,
+    emojiIndex: /[,|.|!|?|;|(|)]*$/.exec(str).index,
+  };
 }
