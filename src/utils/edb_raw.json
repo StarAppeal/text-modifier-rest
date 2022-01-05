@@ -4,6 +4,10 @@
 		"👇",
 		"☝️"
 	],
+	"ich,mich":[
+		"🙋",
+		"🧍"
+	],
 	"aber,andererseits,bloß,dennoch,doch,jedoch":[
 		"🤔",
 		"😅",
@@ -17,7 +21,7 @@
 		"⭐",
 		"🌟"
 	],
-	"*,asterisk,asteriskus,star,stern,sternchen,superstar":[
+	"*,asterisk,asteriskus,star,stern,sternchen":[
 		"*⃣",
 		"✨",
 		"✳",
@@ -48,7 +52,7 @@
 		"🔃",
 		"🔄"
 	],
-	"1a,astrein,bedeutend,bedeutsam,bombastisch,cool,doll,dufte,fantastisch,geil,genial,großartig,hasenrein,klasse,knorke,maßgeblich,phantastisch,phatt,prima,relevant,sahne,sauber,spitze,stark,super,supi,tipptopp,tofte,toll,tolle,tollen,töfte":[
+	"1a,astrein,ausgezeichnet,außerordentlich,bedeutend,bedeutsam,bestens,bombastisch,cool,doll,dufte,exzeptionell,fantastisch,fein,geil,genial,grandios,großartig,gut,hasenrein,herausragend,höchstrangig,klasse,knorke,maßgeblich,phantastisch,phatt,prima,prächtig,relevant,sahne,sauber,spitze,splendid,stark,super,supi,tipptopp,tofte,toll,tolle,tollen,trefflich,töfte,vortrefflich,vorzüglich,überragend":[
 		"🆒",
 		"🎉",
 		"👌",
@@ -61,19 +65,15 @@
 	"b":[
 		"🅱"
 	],
-	"balltreter,fc,fußballclub,fußballer,fußballklub,fußballmannschaft,fußballspieler,fußballteam,kicker,leder,mannschaft,nationalelf,nationalmannschaft,pille,schalke,startelf,stürmer,torjäger,vfb,vfl,weltmeister,wm":[
+	"balltreter,fc,fußballclub,fußballer,fußballklub,fußballmannschaft,fußballspieler,fußballteam,kicker,leder,mannschaft,nationalelf,nationalmannschaft,pille,startelf,stürmer,torjäger,vfb,vfl,weltmeister,wm":[
 		"⚽️",
 		"🥅",
 		"🧑‍⚖️",
 		"🏟"
 	],
-	"aachen,aix-la-chapelle,aken,frankenfurt,frankfurt,oche,schalke,schleswig,stuttgart,thüringen,thüringer,vorpommern,westfalen,wiesbaden,wolfsburg,württemberg":[
-		"🇩🇪"
-	],
 	"anwesend,da,dabei,daselbst,dazu,dort,dortselbst,ebenda,ebendort,her,herbei,hier,hierbei,im,in,in's,ins":[
 		"📍",
 		"🗺",
-		"🙋",
 		"👉"
 	],
 	"aargau":[
@@ -202,7 +202,6 @@
 		"😑"
 	],
 	"nord,norden,nordrhein,nördlich":[
-		"☝",
 		"⬆",
 		"👆",
 		"🔼"
@@ -234,7 +233,7 @@
 		"🧟",
 		"🪦"
 	],
-	"auge,augen,ausmachen,erblicken,glubscher,gucker,oculus,sah,sahen,sehe,sehen,sehorgan,sehwerkzeug,sieht,verorten,äugen":[
+	"auge,augen,ausmachen,erblicken,glubscher,gucker,oculus,sah,sahen,sehe,sehen,sehorgan,sehwerkzeug,sichtweise,sieht,verorten,äugen":[
 		"👀",
 		"👁",
 		"👁️‍🗨️",
@@ -243,8 +242,7 @@
 		"🙄"
 	],
 	"google":[
-		"🔍",
-		"🔎"
+		"🔍"
 	],
 	"aufdecken,aufklären,chiffre,detektieren,entdecken,erkennen,ermitteln,eruieren,festmachen,feststellen,forschen,geheimnis,herausfinden,identifizieren,konstatieren,mysterium,nachforschen,phänomen,rätsel,trovato":[
 		"🕵",
@@ -280,28 +278,19 @@
 		"🕳",
 		"💧"
 	],
-	"abfilmen,aufnehmen,film,filmen,films,lichtspiel,streifen,video,videografieren,videographieren,videos":[
-		"🍿",
+	"abfilmen,aufnehmen,film,filmen,films,video,videografieren,videographieren,videos":[
 		"🎞",
-		"🎟",
 		"🎥",
-		"🎦",
-		"🎬",
 		"📷",
-		"📹",
-		"📼",
-		"📽"
+		"📼"
 	],
-	"filmtheater,filmvorschau,kino,kintopp,lichtspielhaus,lichtspieltheater":[
+	"filmtheater,filmvorschau,kino,kintopp,lichtspiel,lichtspielhaus,lichtspieltheater":[
 		"🍿",
 		"🎞",
 		"🎟",
 		"🎥",
-		"🎦",
 		"🎫",
 		"🎬",
-		"🎭",
-		"📹",
 		"📽"
 	],
 	"finger":[
@@ -328,6 +317,12 @@
 	"irgendwann,später,späterhin,wann":[
 		"⏳",
 		"⏰"
+	],
+	"babbele,babbeln,besprechen,konversieren,parlieren,plaudern,plauschen,quasseln,quatern,quatschen,reden,referat,schnacken,sprache,sprechen,sprecherin,spricht,vortrag":[
+		"💬",
+		"📣",
+		"🗣",
+		"👄"
 	],
 	"alsdann,also,anschließend,dadurch,danach,dann,darauf,darauffolgend,daraufhin,darnach,dementsprechend,demgemäß,demnach,demzufolge,deshalb,folgend,folglich,hernach,hierauf,hiernach,hinterher,infolgedessen,insofern,mithin,nach,nachdem,nachfolgend,nachher,nachstehende,nachträglich,nächste,sodann,somit,worauf,woraufhin":[
 		"⏩",
@@ -410,11 +405,14 @@
 		"🪐",
 		"🌌"
 	],
-	"erde,erden,globus,terra,welt,world":[
+	"erde,globus,terra,welt,world":[
 		"🌍",
 		"🌎",
 		"🌏",
 		"🌐"
+	],
+	"kinn":[
+		"🤔"
 	],
 	"edelstein,juwel,klunker,schmuckstein":[
 		"💍",
@@ -574,7 +572,7 @@
 		"💩",
 		"🤡"
 	],
-	"focus,scheiß,beschissen":[
+	"beschissen,focus,scheiß":[
 		"💩"
 	],
 	"arsch,arschgesicht,arschloch":[
@@ -612,7 +610,7 @@
 		"🖕",
 		"🤬"
 	],
-	"blöd,blödian,blödmann,depp,dumm,dummheit,dummkopf,dussel,idiot,mongo,pfosten,schwachkopf,schwachsinn,spasti,trottel,vollpfosten,bescheuert":[
+	"bescheuert,blöd,blödian,blödmann,depp,dumm,dummheit,dummkopf,dussel,idiot,mongo,pfosten,schwachkopf,schwachsinn,spasti,trottel,vollpfosten":[
 		"🤡",
 		"🤪"
 	],
@@ -644,6 +642,15 @@
 		"🚦",
 		"🚫",
 		"🛑"
+	],
+	"begeben,dahinpreschen,düsen,eilen,flitzen,gelaufen,hasten,hechten,huschen,lauf,laufe,laufen,lief,läuft,preschen,rasen,rennen,sausen,schnellen,sprinten,spurten,stürmen":[
+		"🏃",
+		"💨",
+		"🐆"
+	],
+	"gegangen,gehe,gehen,hingehen,latschen":[
+		"🚶",
+		"👣"
 	],
 	"abchecken,abgenommen,abgesegnet,abklären,approbiert,auditieren,autorisiert,begutachtet,checken,freigeben,freigegeben,freilegen,gebilligt,gecheckt,genehmigt,geprüft,gutgeheißen,kontrollieren,nachgewiesen,nachprüfen,prüfen,richtig,überprüfen,überprüft":[
 		"☑",
@@ -773,6 +780,10 @@
 		"🎗",
 		"🚬",
 		"🦀"
+	],
+	"alt,alte,alter,altes":[
+		"👵",
+		"👴"
 	],
 	"großmutter,oma,oma's,omas":[
 		"👵"
@@ -941,6 +952,10 @@
 	"brain,gehirn,hirn,psychonauts,verstand":[
 		"🧠"
 	],
+	"beachten,bedenken,berücksichtigen,denke,denken,denkmuster,denkt,denkungsart,denkweise,grübeln,nachgrübeln,überdenken,überlegen":[
+		"💭",
+		"🤔"
+	],
 	"anruf,call,fernmündlich,telefon,telefonanruf,telefonat,telefongespräch,telefonisch,telefonkontakt":[
 		"☎",
 		"📞",
@@ -1002,7 +1017,7 @@
 	"bielefeld":[
 		"🪧"
 	],
-	"aachen,augsburg,boche,bochum,bonn,bonner,brandenburg,bremen,d'dorf,deutsch,deutsche,deutschen,deutscher,dortmund,dresden,duisburg,düsseldorf,essen,frankfurt,freiburg,gelsenkirchen,germane,germanen,germanisch,gummihals,hamburg,hannover,hessen,holstein,inländer,karlsruhe,koblenz,leipzig,lübeck,mainz,mannheim,mecklenburg,mecklenburg-vorpommern,monnem,mönchengladbach,münster,niedersachsen,nordrhein-westfalen,nrw,nürnberg,quadratestadt,rheinland-pfalz,saarbrücken,saarland,sachsen,sachsen-anhalt,schleswig,schleswig-holstein,stuttgart,teutone,teutonen,teutonisch,thüringen,vorpommern,weimar,westfalen,wiesbaden,wuppertal,württemberg":[
+	"aachen,aix-la-chapelle,augsburg,boche,bochum,bonn,bonner,brandenburg,bremen,d'dorf,deutsch,deutsche,deutschen,deutscher,dortmund,dresden,duisburg,düsseldorf,essen,frankenfurt,frankfurt,freiburg,gelsenkirchen,germane,germanen,germanisch,gummihals,hamburg,hannover,hessen,holstein,inländer,karlsruhe,koblenz,leipzig,lübeck,mainz,mannheim,mecklenburg,mecklenburg-vorpommern,monnem,mönchengladbach,münster,niedersachsen,nordrhein-westfalen,nrw,nürnberg,quadratestadt,rheinland-pfalz,saarbrücken,saarland,sachsen,sachsen-anhalt,schalke,schleswig,schleswig-holstein,stuttgart,teutone,teutonen,teutonisch,thüringen,vorpommern,weimar,westfalen,wiesbaden,wolfsburg,wuppertal,württemberg":[
 		"🇩🇪"
 	],
 	"bayer,bayerisch,bayerische,bayern,bayernland,bayerns,bayrisch,münchen,münchener,münchner":[
@@ -1020,10 +1035,10 @@
 	"alpenrepublik,austria,mozartstadt,niederösterreich,oberösterreich,salzburg,schluchtenscheißer,wien,ösiland,österreich,österreicher,österreichisch":[
 		"🇦🇹"
 	],
-	"basel,bern,biel,gallen,genf,lausanne,lugano,luzern,winterthur,zürich":[
+	"basel,bern,biel,gallen,genf,lausanne,lugano,luzern,winterthur,zürcher,zürich,züricher":[
 		"🇨🇭"
 	],
-	"alpenindianer,helvetia,helvetien,raetia,schweiz,schweizer,swiss,zürcher,zürich,züricher":[
+	"alpenindianer,helvetia,helvetien,raetia,schweiz,schweizer,swiss":[
 		"🇨🇭",
 		"🍫",
 		"🧀",
@@ -1186,14 +1201,18 @@
 		"💧",
 		"🚰"
 	],
-	"ficke,verfickt,fuck":[
+	"ficke,fuck,fucking,verfickt":[
 		"🍆",
 		"🍑",
 		"💦",
 		"😩",
 		"🤤"
 	],
-	"ausgeschlossen,denkste,egal,fehlanzeige,furzegal,gleich,gleichgültig,hauchdünn,kaum,kein,keine,keinerlei,keinesfalls,keineswegs,knapp,minus,mitnichten,naa,nee,negativ,negative,negativen,nein,nichtnie,niemals,nimmerdar,nimmermehr,nö,piepegal,pupsegal,scheißegal,schiskojenno,schittegal,schnuppe,schnurz,schnurzegal,schnurzpiepe,schnurzpiepegal,wumpe,wurscht":[
+	"durchscheinend,durchsichtig,durchsichtigkeit,klar,klarer,klarheit,lichtdurchlässigkeit,luzidität,transparent,transparenz,ungetrübt":[
+		"🔍",
+		"🪟"
+	],
+	"ausgeschlossen,denkste,egal,fehlanzeige,furzegal,gleich,gleichgültig,hauchdünn,kaum,kein,keine,keinerlei,keinesfalls,keineswegs,knapp,minus,mitnichten,naa,nee,negativ,negative,negativen,nein,nicht,nichtnie,niemals,nimmerdar,nimmermehr,nö,piepegal,pupsegal,scheißegal,schiskojenno,schittegal,schnuppe,schnurz,schnurzegal,schnurzpiepe,schnurzpiepegal,wumpe,wurscht":[
 		"❌",
 		"👎",
 		"😡",
