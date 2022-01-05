@@ -10,6 +10,7 @@
   - _reverse_: boolean - wether or not to translate **from** or **to** _Braille_
 - _Cummy_ for just the same text
 - _Emoji_ for **more 📈😤 emotions 😍**
+  - _maxEmojis_: number - maximum number of emojis after a word
 - _Fancy_ for **𝒶 𝓃𝒾𝒸ℯ 𝒾𝓉𝒶𝓁𝒾𝒸 𝒻ℴ𝓃𝓉**
 - _Fraktur_ for **𝔱𝔥𝔦𝔰 𝔬𝔩𝔡 𝔊𝔢𝔯𝔪𝔞𝔫 𝔣𝔬𝔫𝔱**
   - _bold_: boolean - 𝖇𝖔𝖑𝖉 or 𝔫𝔬𝔱 𝔟𝔬𝔩𝔡

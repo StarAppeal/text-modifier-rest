@@ -3,7 +3,7 @@ import generate from "./generator";
 
 const config: GeneratorConfig = {
   function: generate,
-  label: "ᵀᶦⁿʸ",
+  label: "ᵗⁱⁿʸ",
   value: "tiny",
 };
 
