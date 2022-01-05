@@ -1,6 +1,6 @@
 import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
 import morseMap from "../../constants/maps/morse";
-import { getKeyByValue } from "../../utils";
+import { getKeyByValue } from "../../globals/generatorHelpers";
 
 const DEFAULT_PARAMS = {
   reverse: false,

@@ -1,7 +1,7 @@
 import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
-import { getLinks } from "../../utils";
-import fs from "fs";
+import { getLinks } from "../../globals/generatorHelpers";
 import stringSimilarity from "string-similarity";
+import emojiMap from "../../constants/maps/emoji";
 
 interface EmojiString {
   strippedString: string;
@@ -9,10 +9,7 @@ interface EmojiString {
   emojiIndex: number;
 }
 
-const db = JSON.parse(
-  fs.readFileSync("dist/constants/edb.json", "utf8")
-);
-const MAX_EMOJIS = 3; // Max number of emojis that get added after a word
+const MAX_EMOJIS = 2; // Max number of emojis that get added after a word
 const numberMap = {
   "0": "0️⃣",
   "1": "1️⃣",
@@ -33,7 +30,7 @@ export default function generate(request: GeneratorRequest) {
   let emojis;
   let emojiArray;
   let emojified = "";
-  const dbWords = Object.keys(db);
+  const dbWords = Object.keys(emojiMap);
   for (let word of words) {
     let dbWord;
     const emojiString = removePunctuations(word);
@@ -43,10 +40,10 @@ export default function generate(request: GeneratorRequest) {
         dbWords
       ).bestMatch;
       if (bestMatch.rating >= 0.7) {
-        dbWord = db[bestMatch.target as keyof typeof db];
+        dbWord = emojiMap[bestMatch.target as keyof typeof emojiMap];
       }
     } else {
-      dbWord = db[emojiString.strippedString as keyof typeof db];
+      dbWord = emojiMap[emojiString.strippedString as keyof typeof emojiMap];
     }
 
     emojified += emojiString.originalString.substring(
@@ -111,7 +108,7 @@ function getRandomOfArray(arr: string[]) {
 
 function removePunctuations(str: string): EmojiString {
   const lowerStr = str.toLowerCase();
-  if (!/[,|.|!|?|;|(|)]/g.test(str)) {
+  if (!/[,|.|!|?|;|(|)|"]/g.test(str)) {
     return {
       strippedString: lowerStr,
       originalString: str,
@@ -120,8 +117,8 @@ function removePunctuations(str: string): EmojiString {
   }
 
   return {
-    strippedString: lowerStr.replace(/[,|.|!|?|;|(|)]/g, ""),
+    strippedString: lowerStr.replace(/[,|.|!|?|;|(|)|"]/g, ""),
     originalString: str,
-    emojiIndex: /[,|.|!|?|;|(|)]*$/.exec(str).index,
+    emojiIndex: /[,|.|!|?|;|(|)|"]*$/.exec(str).index,
   };
 }

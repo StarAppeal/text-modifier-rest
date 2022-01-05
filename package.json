@@ -4,7 +4,7 @@
   "description": "Rest-Services for various text generations",
   "main": "server.js",
   "scripts": {
-    "build": "tsc && npm run-script transform --inputfile=src/utils/edb_raw.json --outputfile=dist/constants/edb.json",
+    "build": "tsc && npm run transform-emoji-map",
     "debug": "npm run build && npm run watch-debug",
     "serve-debug": "nodemon --inspect dist/server.js DEBUG",
     "serve": "node dist/server.js",
@@ -13,7 +13,7 @@
     "watch-node": "nodemon dist/server.js",
     "watch-ts": "tsc -w",
     "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
-    "transform": "node src/utils/scripts/transform.js"
+    "transform-emoji-map": "node src/buildScripts/transformEmojiMap/transformEmojiMap.js"
   },
   "repository": {
     "type": "git",
