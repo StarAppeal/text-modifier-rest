@@ -245,15 +245,6 @@ module.exports =
         "💰",
         "💸",
       ],
-    "abgelöst,alt,bisher,bisherig,bisherige,bisherigen,damalig,damalige,damaligen,damals,ehemalig,einstig,einstmalig,frühere,gewesen,vormalig,zurück,zurückzuführen":
-      [
-        "↩",
-        "⏮",
-        "◀",
-        "⬅",
-        "🔙",
-        "🔚",
-      ],
     "abgeordnet,abgeordnete,abgeordneten":
       [],
     "abgeordnetenhaus,abgeordnetenkammer,bundestag,landtag,nationalrat,nationalversammlung,parlament,volksvertretung":
@@ -740,7 +731,7 @@ module.exports =
         "🛫",
         "🛬",
       ],
-    "abschmatzen,busseln,bützen,gestade,knutschen,küssen,küste,schnäbeln,strand,ufer":
+    "abschmatzen,busseln,bützen,gestade,knutschen,küssen,schnäbeln":
       [
         "🇨🇮",
         "🎢",
@@ -759,21 +750,6 @@ module.exports =
       [],
     "abschnitt,entwicklungsabschnitt,entwicklungsphase,entwicklungsstadium,entwicklungsstand,entwicklungsstufe,entwicklungszustand,periode,phase,punkt,stadium,station,stufe":
       [],
-    "abschwarten,geschlagen,schicksalsschlag,schlag,schlagen,schlug,schlägt,verdreschen,verhauen,verkloppen,vermöbeln,verprügeln,versohlen,verwichsen":
-      [
-        "🎤",
-        "💓",
-        "💗",
-        "💞",
-        "🚁",
-        "🥁",
-        "🫀",
-        "🎯",
-        "👊",
-        "👏",
-        "🔨",
-        "🥊",
-      ],
     "abschwung,flaute,minuswachstum,rezession":
       [],
     "abschwächen,befreien,entlasten,erleichtern,erleichtert,erlösen,lindern,mildern,mitigieren,säubern,vermindern":
@@ -2125,34 +2101,6 @@ module.exports =
       ],
     "altbekannt,altbewährt,alterprobt,anerkannt,bewährt,einführen,eingeführt,einleiten,erprobt,eröffnen,etabliert,gefestigt,introduzieren,lancieren,probat,verlässlich":
       [],
-    "alte,angetraute,ehefrau,ehegattin,ehegemahlin,ehegespons,eheweib,frau,frauen,gattin,gebieterin,gemahlin,gespons,olle,weib":
-      [
-        "☘",
-        "✋",
-        "🍀",
-        "👧",
-        "👫",
-        "👭",
-        "👰",
-        "💍",
-        "💑",
-        "♀",
-        "👩",
-      ],
-    "alte,beziehung,freundin,ische,lebensabschnittsgefährtin,lebensgefährtin,lebenspartnerin,partnerin":
-      [
-        "🌷",
-        "🌹",
-        "👫",
-        "👭",
-        "👰",
-        "💏",
-        "💐",
-        "💑",
-        "💝",
-        "💟",
-        "😘",
-      ],
     "alte,gebärerin,lebensspenderin,ma,mam,mama,mami,muddern,mutter,mutti,mütter":
       [
         "👧",
@@ -2199,9 +2147,7 @@ module.exports =
         "🕴",
         "🤰",
       ],
-    "alternative,andere,ansonsten,auch,außerdem,daneben,dazu,ebenso,ferner,hierneben,obendrein,sonstige,und,weiter,weitere,weiterhin,weiters,zudem,zugleich,zumal,zusätzlich,zusätzliche,überdies,übrige":
-      [],
-    "alternative,andere,lang,sonstige,weit,weitere,weiteren,zusätzliche,zusätzlichen,übrige":
+    "alternative,andere,lang,sonstige,weit,übrige":
       [],
     "alternativlos,bestimmen,einfordern,einspannen,erzwingen,forcieren,imperativ,nötigen,programmiert,unabdingbar,unabweisbar,unabwendbar,unaufhaltsam,unausweichlich,unumgänglich,unvermeidlich,verpflichten,vorherbestimmt,vorprogrammiert,zwingen,zwingend":
       [],
@@ -2428,62 +2374,6 @@ module.exports =
       [
         "🎬",
         "🔢",
-      ],
-    "anbeten,anhimmeln,ansprechend,gefallen,gernhaben,konziliant,lieb,liebe,lieben,liebenswürdig,minnen,nett,reizend,sympathisch,umgänglich,verehren,vergöttern":
-      [
-        "♥",
-        "❣",
-        "❤",
-        "🌷",
-        "🌹",
-        "🏩",
-        "🏳‍🌈",
-        "👫",
-        "👬",
-        "👭",
-        "💋",
-        "💓",
-        "💕",
-        "💖",
-        "💗",
-        "💘",
-        "💙",
-        "💚",
-        "💛",
-        "💜",
-        "💞",
-        "💟",
-        "😍",
-        "😘",
-        "😻",
-      ],
-    "anbeten,anhimmeln,gefallen,gernhaben,lieben,liebt,minnen,verehren,vergöttern":
-      [
-        "♥",
-        "❣",
-        "❤",
-        "🇸🇮",
-        "🏩",
-        "👫",
-        "👬",
-        "👭",
-        "💋",
-        "💌",
-        "💓",
-        "💕",
-        "💖",
-        "💗",
-        "💘",
-        "💙",
-        "💚",
-        "💛",
-        "💜",
-        "💞",
-        "💟",
-        "😍",
-        "😘",
-        "😻",
-        "🤟",
       ],
     "anbieten,anbot,andienen,anerbieten,angebot,angebote,ankommen,antraben,anzubieten,bieten,bietet,eintreffen,erreichen,erscheinen,funktionieren,gebot,gelangen,gelingen,glücken,gutgehen,herkommen,hineingelangen,hinhauen,hinzustoßen,klappen,kommen,nahen,offerte,präsentation,vorschlag,zeigen":
       [
@@ -2845,7 +2735,7 @@ module.exports =
         "😎",
         "🙌",
       ],
-    "angehen,angeht,angsterfüllt,angstvoll,bang,bange,bebend,bedenken,bekümmert,besorgen,besorgt,betreffen,betroffene,betroffenen,erledigen,furchtsam,kleinmütig,phobisch,schaffen,tangieren,zitternd,ängstlich":
+    "angehen,angeht,bebend,bedenken,bekümmert,besorgen,betreffen,betroffene,betroffenen,erledigen,kleinmütig,schaffen,tangieren":
       [
         "💭",
         "😦",
@@ -3565,7 +3455,7 @@ module.exports =
       [],
     anpassen:
       [],
-    "anpeilen,anstreben,anvisieren,bezwecken,erstreben,gernhaben,liebhaben,möchten,mögen,schurwolle,vorhaben,will,wolle,wollen":
+    "anpeilen,anstreben,anvisieren,bezwecken,erstreben,gernhaben,liebhaben,schurwolle,vorhaben":
       [
         "🐑",
         "🧣",
@@ -3746,8 +3636,6 @@ module.exports =
     "anstalt,einrichtung,institut,institution,institutionen,instituts,laden,organisation":
       [],
     "anstandslos,bereitwillig,entgegenkommenderweise,freundlicherweise,gern,gerne,liebenswürdigerweise,netterweise":
-      [],
-    "anstandslos,einfach,klaglos,mühelos,problemlos,problemlosen,reibungslos,störungsfrei,umstandslos,unaufwändig":
       [],
     "anstatt,für,sondern,statt,stattdessen,zugunsten":
       [
@@ -5844,22 +5732,6 @@ module.exports =
       ],
     "baden,paddeln,plantschen,schwimmen":
       [],
-    "badestrand,strand":
-      [
-        "⛱",
-        "⛵",
-        "🌴",
-        "🏄",
-        "🏖",
-        "🐚",
-        "🐠",
-        "🚢",
-        "🚣",
-        "🚤",
-        "🦈",
-        "🦭",
-        "🩴",
-      ],
     "bag,beutel,tasche,täschchen":
       [
         "🎒",
@@ -5952,8 +5824,6 @@ module.exports =
         "🙆",
         "🤯",
       ],
-    "banal,einfach,gewöhnlich,kunstlos,schleichen,schlicht,simpel,unspektakulär":
-      [],
     "band,bd,buch,buche,bücher,fagus,lektüre,schinken,schmöker,titel":
       [
         "🅰",
@@ -8950,7 +8820,7 @@ module.exports =
       ],
     "dabei,dennoch,gleichwohl,obgleich,obschon,obwohl,obzwar,trotzdem,wenngleich,wennschon,wiewohl,während":
       [],
-    "dabei,indem,so,sodass,solange,wie,während":
+    "dabei,indem,so,solange,wie,während":
       [],
     "dach,gewölbe,kuppel":
       [
@@ -9071,34 +8941,6 @@ module.exports =
       [
         "🚽",
         "🚾",
-      ],
-    damit:
-      [
-        "⛈",
-        "🌂",
-        "🌩",
-        "🍷",
-        "🎰",
-        "👉",
-        "👋",
-        "💅",
-        "💉",
-        "💊",
-        "💧",
-        "💬",
-        "💸",
-        "💻",
-        "📈",
-        "📷",
-        "🔍",
-        "🔎",
-        "🕵",
-        "😁",
-        "😂",
-        "😜",
-        "😬",
-        "🤔",
-        "🤯",
       ],
     "damm,deich,eindämmung,kai,sturmflutbefestigung,uferdamm":
       [],
@@ -9334,14 +9176,6 @@ module.exports =
       [],
     "detail,einzelheit,faktum,spitzfindigkeit":
       [],
-    "detonation,explosion,schlag":
-      [
-        "🌋",
-        "💢",
-        "💣",
-        "💥",
-        "🤯",
-      ],
     "deuten,deutet,transkribieren,übersetzen":
       [],
     "dezentral,lokal,regional,örtlich,örtlichen":
@@ -9401,7 +9235,7 @@ module.exports =
         "🩳",
         "🪙",
       ],
-    "direkt,direkte,direktemang,direkten,durchaus,einfach,einfache,einfacher,freilich,gerade,geradewegs,geradezu,geradezus,glatt,glattweg,glattwegs,gradweg,nachgerade,platterdings,praktisch,rein,reinewegs,reinweg,reinwegs,rundheraus,rundweg,schier,schlankweg,schlankwegs,schlechterdings,schlechthin,schlechtweg,schlechtwegs,schlicht,schlichtweg,schlichtwegs":
+    "direkt,direkte,direktemang,direkten,durchaus,freilich,gerade,geradewegs,geradezu,geradezus,glatt,glattweg,glattwegs,gradweg,nachgerade,platterdings,praktisch,rein,reinewegs,reinweg,reinwegs,rundheraus,rundweg,schier,schlankweg,schlankwegs,schlechterdings,schlechthin,schlechtweg,schlechtwegs,schlicht,schlichtweg,schlichtwegs":
       [
         "⚖",
         "📢",
@@ -9742,11 +9576,6 @@ module.exports =
     "dänemark,hagen":
       [
         "🇩🇰",
-      ],
-    döner:
-      [
-        "🌯",
-        "🥙",
       ],
     dürfen:
       [
@@ -10831,16 +10660,6 @@ module.exports =
         "🐾",
         "🦊",
         "🦮",
-      ],
-    "feminin,fraulich,weiblich":
-      [
-        "♀",
-        "👧",
-        "👩",
-        "👭",
-        "👵",
-        "🧑",
-        "🧓",
       ],
     "ferien,urlaub":
       [
@@ -12410,9 +12229,7 @@ module.exports =
         "🗂",
         "🛋",
       ],
-    "horchen,horst,hören,lauschen":
-      [],
-    "horchen,hort,hören,hört,kindergarten,kinderhort,lauschen":
+    "hort,kindergarten,kinderhort":
       [
         "♥",
         "❤",
@@ -12439,13 +12256,6 @@ module.exports =
         "🦻",
         "🧏",
         "🫀",
-      ],
-    "horchen,hören,lauschen":
-      [
-        "👂",
-        "🙉",
-        "🦻",
-        "🧏",
       ],
     "hort,kindergarten,kindergärten,kinderhort":
       [
@@ -15460,12 +15270,6 @@ module.exports =
       "👪",
       "🥁",
     ],
-    "trans,transsexuell":
-      [
-        "⚧️",
-        "🏳‍🌈",
-        "🏳️‍⚧️",
-      ],
     "transfer,übermittlung,übertragung":
       [
         "📡",
