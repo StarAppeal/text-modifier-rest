@@ -1,11 +1,10 @@
 {
   "$,dollar": ["💲", "💵"],
   "'ne,alleinig,ein,eine,einem,einen,einer,eines,einmal,eins,einzeln,einzig,einzige,einziger,einziges,isoliert": [
-    "1⃣",
+    "1️⃣",
     "☝"
   ],
   "*,asterisk,asteriskus,star,stern,sternchen": [
-    "*⃣",
     "✨",
     "✳",
     "✴",
@@ -23,21 +22,19 @@
     "🔯",
     "🤩"
   ],
-  "1000000,1000000000,1000000000000,billion,billionen,milliarde,milliarden,million,millionen,mio,mrd": [
+  "billion,billionen,milliarde,milliarden,million,millionen,mio,mrd": [
     "♾️",
     "📈"
   ],
-  "11,elf": ["🕚"],
-  "12,zwölf": ["🕛"],
-  "180-grad-wende,abbiegen,dran,drehen,dreht,gedreht,invertieren,kehre,kehrtwende,kehrtwendung,kreiseln,kreisen,rotieren,schwenk,trudeln,u-turn,umdrehen,umgehen,umkehr,umkehren,umschlag,umschwung,umstülpen,umwenden,wende,wenden,wendung": [
-    "↩",
-    "↪",
+  "elf": ["🕚"],
+  "zwölf": ["🕛"],
+  "1️⃣8️⃣0️⃣-grad-wende,abbiegen,dran,drehen,dreht,gedreht,invertieren,kehre,kehrtwende,kehrtwendung,kreiseln,kreisen,rotieren,schwenk,trudeln,u-turn,umdrehen,umgehen,umkehr,umkehren,umschlag,umschwung,umstülpen,umwenden,wende,wenden,wendung": [
     "⤴️",
     "⤵️",
     "🔃",
     "🔄"
   ],
-  "1a,astrein,ausgezeichnet,außerordentlich,bedeutend,bedeutsam,bestens,bombastisch,cool,doll,dufte,exzeptionell,fantastisch,fein,geil,genial,grandios,großartig,gut,gute,gutem,guten,guter,gutes,hasenrein,herausragend,höchstrangig,klasse,knorke,maßgeblich,phantastisch,phatt,prima,prächtig,relevant,sahne,sauber,spitze,splendid,stark,super,supi,tipptopp,tofte,toll,tolle,tollen,trefflich,töfte,vortrefflich,vorzüglich,überragend": [
+  "1️⃣a,astrein,ausgezeichnet,außerordentlich,bedeutend,bedeutsam,bestens,bombastisch,cool,doll,dufte,exzeptionell,fantastisch,fein,geil,genial,grandios,großartig,gut,gute,gutem,guten,guter,gutes,hasenrein,herausragend,höchstrangig,klasse,knorke,maßgeblich,phantastisch,phatt,prima,prächtig,relevant,sahne,sauber,spitze,splendid,stark,super,supi,tipptopp,tofte,toll,tolle,tollen,trefflich,töfte,vortrefflich,vorzüglich,überragend": [
     "🆒",
     "🎉",
     "👌",
@@ -98,7 +95,6 @@
     "🛑"
   ],
   "abchecken,abgenommen,abgesegnet,abklären,approbiert,auditieren,autorisiert,begutachtet,checken,freigeben,freigegeben,freilegen,gebilligt,gecheckt,genehmigt,geprüft,gutgeheißen,kontrollieren,nachgewiesen,nachprüfen,prüfen,richtig,überprüfen,überprüft": [
-    "☑",
     "✅",
     "✔",
     "📝",
@@ -163,9 +159,6 @@
     "🧒"
   ],
   "ableben,abschied,dahingegangen,dahingeschieden,exitus,gekillt,gestorben,getötet,hinscheiden,hinschied,killen,killt,lebensende,opfer,sterbefall,sterben,tod,todesfall,todesfälle,todesopfer,tot,tote,toten,totschlag,trauerfall,tödlich,töten,tötung,umbringen,umgebracht,verblichen,verreckt,verschieden,versterben,verstorben": [
-    "☠",
-    "⚰",
-    "⚱",
     "💀",
     "🖤",
     "😵",
@@ -212,9 +205,8 @@
     "🥊"
   ],
   "abstellplatz,einstellplatz,parkbox,parkplatz,parkplätze,stellplatz": ["🅿"],
-  "acht": ["8⃣", "🎱", "🕗"],
+  "acht": ["8️⃣", "🎱", "🕗"],
   "aeroplan,airline,airlines,flieger,flug,fluggesellschaft,flugkapitän,fluglinie,flugpassage,flugreise,flugzeug,flugzeugführer,flüge,luftbeförderung,luftfahrtgesellschaft,luftfahrzeugführer,luftreise,luftverkehrsgesellschaft,pilot,piloten,verkehrsflugzeugführer": [
-    "✈",
     "💺",
     "🚁",
     "🛩",
@@ -236,18 +228,14 @@
     "🪐"
   ],
   "alle,allem,allen,aller,alles,jede,jedem,jeden,jeder,jedes": ["💯", "🧑‍🤝‍🧑"],
-  "allein,alleine": ["1⃣", "🧍"],
+  "allein,alleine": ["1️⃣", "🧍"],
   "allmächtiger,allvater,andacht,andachtsgebäude,bethaus,christ,christlich,eden,gebetshaus,gott,gottesdienen,gottesdienst,gotteshaus,gottesmann,gottesmutter,herr,herrgott,himmelreich,jenseits,kirche,kirchengebäude,maria,messe,messfeier,mette,paradies,pastor,pfaffe,pfarrer,prediger,priester,schwarzrock,schöpfer,urschöpfer,weltenlenker": [
-    "☦",
     "⛪",
-    "✝",
-    "🌩",
     "👼",
     "📿",
     "🕋",
     "🕌",
     "🕍",
-    "🕎",
     "😇",
     "🙏",
     "🛐"
@@ -263,8 +251,7 @@
   ],
   "alsdann,also,anschließend,dadurch,danach,dann,darauf,darauffolgend,daraufhin,darnach,dementsprechend,demgemäß,demnach,demzufolge,deshalb,durch,folgend,folglich,hernach,hierauf,hiernach,hinterher,infolgedessen,insofern,mithin,nach,nachdem,nachfolgend,nachher,nachstehende,nachträglich,nächste,sodann,somit,worauf,woraufhin": [
     "⏩",
-    "▶",
-    "➡"
+    "▶️"
   ],
   "alt,alte,alter,altes": ["👴", "👵"],
   "altjahrabend,altjahrsabend,altjahrstag,jahresabschluss,jahresausklang,jahreswende,neujahr,silvester": [
@@ -322,7 +309,6 @@
   "anschwellen,ansteigen,anstieg,anwachsen,aufgang,aufschwung,ausdehnen,ausdehnung,ausweitung,emporheben,erhöhung,expansion,extension,heranwachsen,maximieren,mehren,mehrung,sprießen,steigen,steiger,steigern,steigerung,steigt,vergrößern,vergrößerung,vermehren,wachstum,wuchs,zunahme,zunehmen,zuwachs": [
     "⏫",
     "➕",
-    "⤴",
     "⬆️",
     "📈",
     "🔝",
@@ -362,7 +348,7 @@
     "🚰",
     "🚿"
   ],
-  "ard": ["1⃣️", "📺"],
+  "ard": ["1️⃣️", "📺"],
   "arsch,arschgesicht,arschloch": ["🍑", "💩", "🖕"],
   "arschgeige": ["🍑", "🎻", "🖕"],
   "arznei,arzneimittel,droge,drogen,heilmittel,heilsubstanz,medikament,medikamente,medizin,mittel,pharmazeutikum,präparat,remedium,therapeutikum": [
@@ -371,7 +357,6 @@
     "💊"
   ],
   "arzt,arztbesucher,arztpraxis,doc,doktor,doktorin,heilkundiger,heilkünstler,medicus,medikus,mediziner,medizinerin,patient,patienten,praxis,weißkittel,ärzte,ärzten,ärztin": [
-    "⚕",
     "🌡",
     "🏥",
     "💉",
@@ -484,7 +469,7 @@
     "🤔"
   ],
   "begrüßen,begrüßung,grüß,hallo,hi,moin,tach": ["👋", "🙋"],
-  "beide,zwei": ["2⃣", "✌", "👥", "🕑"],
+  "beide,zwei": ["2️⃣", "✌", "👥", "🕑"],
   "benz,bmw,citroen,fiat,ford,honda,hyundai,mercedes,mustang,nissan,opel,peugeot,porsche,renault,suzuki,tesla,toyota,volkswagen,vw": [
     "🏎",
     "🚕",
@@ -529,7 +514,6 @@
   ],
   "bielefeld": ["🪧"],
   "bisher,bisherig,bisherige,bisherigen,damalig,damalige,damaligen,damals,ehemalig,einstig,einstmalig,frühere,gewesen,vormalig,zurück,zurückzuführen": [
-    "↩",
     "⏮",
     "◀",
     "⬅",
@@ -610,7 +594,7 @@
   ],
   "dinosaft,erdöl,mineralöl,petroleum,rohöl,öl": ["⛽", "🛢", "🪔"],
   "disney,disneyland,disneyworld": ["🏰", "🐭", "👸"],
-  "drei,dreimal": ["3⃣", "🕒"],
+  "drei,dreimal": ["3️⃣", "🕒"],
   "durchscheinend,durchsichtig,durchsichtigkeit,klar,klarer,klarheit,lichtdurchlässigkeit,luzidität,transparent,transparenz,ungetrübt": [
     "🔍",
     "🪟"
@@ -719,7 +703,7 @@
     "📶",
     "🤳"
   ],
-  "fünf,fünft,fünfte,fünften": ["5⃣", "🕔"],
+  "fünf,fünft,fünfte,fünften": ["5️⃣", "🕔"],
   "gedeihen,gedeiht,heranwachsen,sprießen,wachsen,wächst": [
     "🌱",
     "🌳",
@@ -750,7 +734,7 @@
     "🛵"
   ],
   "jahresende": ["❎", "🏁", "📅", "📆", "🔚", "🗓"],
-  "jahreswechsel": ["↩", "↪", "⤴", "⤵", "📅", "📆", "🔃", "🔄", "🗓", "🪛"],
+  "jahreswechsel": ["📅", "📆", "🔃", "🔄", "🗓", "🪛"],
   "junge,mann,maskulin,männer,männlich": ["♂️", "👴"],
   "kinn": ["🤔"],
   "klima,wetter,wetterlage,witterung": [
@@ -801,7 +785,6 @@
     "🩹"
   ],
   "krankenpfleger,krankenpflegerin,krankenschwester,pflegefachkraft,pflegekraft,pflegeperson,pflegerin": [
-    "‍⚕",
     "🏥",
     "😷"
   ],
@@ -809,7 +792,7 @@
   "leer,leere,leeren,lücke,nichts,unausgefüllt,vakuum": ["⚪", "📭", "🕳", "😑"],
   "liter": ["💧", "🚰"],
   "luxemburg": ["🇱🇺"],
-  "mangelhaft": ["5⃣"],
+  "mangelhaft": ["5️⃣"],
   "mario": ["🍄", "🎮"],
   "maske,maskenpflicht,schminkraum": ["👹", "👺", "😷"],
   "messer": ["⚔", "🍴", "🍽", "🔪", "🗡"],
@@ -822,7 +805,7 @@
   "möchte,möchten,mögen,will,willst,wollen,wollte": ["🙏", "🤗", "🤤"],
   "name,namen": ["🔤"],
   "nase,nasen,riechapparat,riechorgan": ["🐽", "👃", "😤", "🤥"],
-  "neun": ["9⃣", "🕘"],
+  "neun": ["9️⃣", "🕘"],
   "newyork,york": ["🏙", "🐦", "📰", "🗞", "🗽"],
   "niederschlag,regen": ["☁", "☂", "☔", "⛈", "🌂", "🌈", "🌦", "🌧", "💦", "💧"],
   "nord,norden,nordrhein,nördlich": ["⬆", "👆", "🔼"],
@@ -844,16 +827,16 @@
   "portugal": ["🇵🇹"],
   "quelle,soße": ["ℹ", "🍝", "📖"],
   "rufnummer,telefonnummer": [
-    "0⃣",
-    "1⃣",
-    "2⃣",
-    "3⃣",
-    "4⃣",
-    "5⃣",
-    "6⃣",
-    "7⃣",
-    "8⃣",
-    "9⃣",
+    "0️⃣",
+    "1️⃣",
+    "2️⃣",
+    "3️⃣",
+    "4️⃣",
+    "5️⃣",
+    "6️⃣",
+    "7️⃣",
+    "8️⃣",
+    "9️⃣",
     "☎",
     "📞",
     "📱",
@@ -870,9 +853,9 @@
     "🏂",
     "🛷"
   ],
-  "sechs,sechsten": ["6⃣", "🕕"],
+  "sechs,sechsten": ["6️⃣", "🕕"],
   "seife,spülen,waschen": ["💦", "💧", "🚿", "🧼"],
-  "sieben": ["7⃣", "🕖"],
+  "sieben": ["7️⃣", "🕖"],
   "signalisieren,zeigen,zeigte": ["👉", "🪧"],
   "stand,stehen,steht,stünde": ["🧍"],
   "trans,transsexualität,transsexuell": ["⚧️", "🏳‍🌈", "🏳️‍⚧️"],
@@ -889,9 +872,9 @@
   "united,vereinigte,vereinigten,vereinte,vereinten": ["🇬🇧", "🇺🇳", "🇺🇸", "🌐"],
   "urknall": ["💣", "💥"],
   "verarschen,vergackeiern,verkaspern,verschaukeln,veräppeln": ["💩", "🤡"],
-  "vier,viermal": ["4⃣", "🕓"],
+  "vier,viermal": ["4️⃣", "🕓"],
   "weiß": ["⚪"],
-  "weltgesundheitsorganisation,who": ["‍⚕", "🌎", "🌐", "🌡", "🏥", "🦠", "🩺"],
+  "weltgesundheitsorganisation,who": ["🌎", "🌐", "🌡", "🏥", "🦠", "🩺"],
   "west,westen,westliche,westlichen": ["⬅", "🌵", "🏜", "👈", "🤠"],
   "winter,winterzeit": [
     "☃",
@@ -929,8 +912,8 @@
   ],
   "wurzel": ["🪵"],
   "yen,¥": ["💴", "💹"],
-  "youtube": ["⏯", "⏸", "▶", "🎥", "📹", "🔔"],
-  "zdf": ["2⃣", "📺"],
+  "youtube": ["⏯", "⏸", "▶️", "🎥", "📹", "🔔"],
+  "zdf": ["2️⃣", "📺"],
   "zehn": ["🔟", "🕙"],
   "zufall,zufällig,zufälligkeit": ["🎰", "🎲"],
   "zweieinhalb": ["🕝"]
