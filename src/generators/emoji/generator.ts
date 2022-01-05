@@ -1,5 +1,6 @@
 import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
-import { getLinks } from "../../globals/generatorHelpers";
+import { extractLinks, insertLinks } from "../../globals/generatorHelpers";
+import { LinkExtraction } from "@/constants/interfaces/Links";
 import stringSimilarity from "string-similarity";
 import emojiMap from "../../constants/maps/emoji";
 
@@ -29,27 +30,7 @@ const numberMap = {
 export default function generate(request: GeneratorRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
-  let textWithNumberEmojis = request.text;
-  const indices = getLinks(textWithNumberEmojis);
-  let re = /[0-9]/g;
-  let match: RegExpExecArray | null;
-  while ((match = re.exec(textWithNumberEmojis)) != null) {
-    let isInsideLink = false;
-    indices.forEach((value, key) => {
-      if (match.index > key && match.index <= key + value) {
-        isInsideLink = true;
-      }
-    });
-    if (isInsideLink) {
-      continue;
-    }
-    textWithNumberEmojis =
-      textWithNumberEmojis.substring(0, match.index) +
-      numberMap[
-        textWithNumberEmojis.charAt(match.index) as keyof typeof numberMap
-      ] +
-      textWithNumberEmojis.substring(match.index + 1);
-  }
+  const textWithNumberEmojis = replaceAllNumbers(request.text);
 
   const words = textWithNumberEmojis.split(" ");
   let numberEmojis;
@@ -101,14 +82,38 @@ export default function generate(request: GeneratorRequest) {
   return result.substring(0, result.length - 1);
 }
 
+function replaceAllNumbers(str: string) {
+  const splitString: LinkExtraction = extractLinks(str);
+
+  let editedTextParts: string[] = [];
+  splitString.textParts.forEach((textPart) => {
+    editedTextParts.push(replaceNumbers(textPart));
+  });
+
+  return insertLinks(editedTextParts, splitString.extractedLinks);
+}
+
 function getRandomOfArray(arr: string[]) {
   if (!arr.length) {
     return "";
   }
-  let index = Math.floor(Math.random() * arr.length);
+  const index = Math.floor(Math.random() * arr.length);
   const selected = arr[index];
   arr.splice(index, 1);
   return selected;
+}
+
+function replaceNumbers(str: string) {
+  const regex = /[0-9]/g;
+  let result = str;
+  let match: RegExpExecArray | null;
+  while ((match = regex.exec(result))) {
+    result =
+      result.substring(0, match.index) +
+      numberMap[match[0] as keyof typeof numberMap] +
+      result.substring(match.index + 1);
+  }
+  return result;
 }
 
 function removePunctuations(str: string): EmojiString {

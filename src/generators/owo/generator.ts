@@ -9,12 +9,12 @@ const DEFAULT_PARAMS = {
 export default function generate(request: GeneratorRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
-  let indices = getLinks(request.text);
+  let links = getLinks(request.text);
   let result = "";
   for (let i = 0; i < request.text.length; i++) {
-    let url = indices.get(i);
+    let url = links.find((link) => i === link.index)?.length;
     let c = request.text[i];
-    if (url == undefined) {
+    if (!url) {
       if (c == "\\" && i < request.text.length) {
         c = "\\" + request.text[i + 1];
         i++;
