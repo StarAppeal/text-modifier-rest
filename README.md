@@ -1,4 +1,4 @@
-# text-generator-rest
+# text-modifier-rest
 
 ### Express based REST interface for generating different kinds of texts.
 
