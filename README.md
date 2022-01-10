@@ -28,3 +28,5 @@
   - _numberTranslations_: number - number of languages the text is being translated to before translating back to German. More language support to come.
 - _Zalgo_ for **ơ̬͌ḫ̭͐ ͇͓ͥl̻̏͢o̶̥̜r͌͛́d̼̉͢ ͔̆͘h̹̑͝e͙̲ͅl͇̮͘p͍̔̊ ̳̆͠m̼̉̎e̞̞̊ ͍̈̒h̳̫̐ë̴̦ ͚̋͘c̮̟ͯo͌͒̍m̷̀͝e̩͕͂s̩̲̅**
   - _intensity_: number - value from _0_ to _100_ to define, you guessed it, the intensity of the zalgo
+
+test
