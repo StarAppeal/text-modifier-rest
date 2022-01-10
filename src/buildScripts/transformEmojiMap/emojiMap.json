@@ -367,7 +367,7 @@
     "🤕",
     "🩺"
   ],
-  "asche,geld,kapital,knete,kohle,kröten,lehm,moneten,moos,mäuse,ocken,penunse,penunze,piepen,rubel,scheinchen,scheine,schlotten,schotter,spesen,unkosten,valuta,währung,zahlungsmittel,zaster,öcken": [
+  "asche,geld,kapital,knete,kohle,kröten,lehm,moneten,moos,mäuse,ocken,penunse,penunze,piepen,reich,reicher,reichste,rubel,scheinchen,scheine,schlotten,schotter,spesen,unkosten,valuta,währung,zahlungsmittel,zaster,öcken": [
     "💎",
     "💰",
     "💱",
@@ -443,7 +443,7 @@
     "🤕"
   ],
   "b": ["🅱"],
-  "babbele,babbeln,besprechen,gesagt,konversieren,parlieren,plaudern,plauschen,quasseln,quatern,quatschen,reden,referat,rief,rufen,ruft,sagen,sagt,sagte,schnacken,sprache,sprechen,sprecherin,sprich,spricht,vortrag": [
+  "babbele,babbeln,besprechen,gesagt,konversieren,parlieren,plaudern,plauschen,quasseln,quatern,quatschen,reden,referat,rief,rufen,ruft,sag,sag',sage,sagen,sagt,sagte,schnacken,sprache,sprechen,sprecherin,sprich,spricht,vortrag": [
     "👄",
     "💬",
     "📣",
@@ -494,7 +494,7 @@
     "🤪"
   ],
   "beschissen,focus,scheiß": ["💩"],
-  "beständig,diesmal,fristgemäß,fristgerecht,jederzeit,konstant,kontinuierlich,minute,minuten,prolongieren,rechtzeitig,stetig,stillstehen,stunde,stunden,ständig,termingemäß,termingerecht,uhrzeit,vorerst,zeit,zeitgerecht": [
+  "beständig,diesmal,fristgemäß,fristgerecht,jederzeit,konstant,kontinuierlich,minute,prolongieren,rechtzeitig,sekunde,stetig,stillstehen,stunde,stunden,ständig,termingemäß,termingerecht,uhrzeit,vorerst,zeit,zeitgerecht": [
     "⌚",
     "⌛",
     "⏰",
@@ -528,11 +528,16 @@
     "🦕",
     "🦖"
   ],
-  "brain,gehirn,hirn,psychonauts,verstand": ["🧠"],
+  "brain,gehirn,hirn,psychonauts,vergessen,verstand": ["🧠", "🤔"],
   "brand,brandbekämpfer,braunfäule,feuer,feuerwehr,feuerwehren,feuerwehrleute,mehltau": [
     "‍🚒",
     "🔥",
     "🕯"
+  ],
+  "bulle,bullerei,bundespolizei,cop,gesetzeshüter,ordnungshüter,polizei,polizeibeamter,polizist,schutzmann,schutzpolizist,sheriff,wachtmeister": [
+    "👮",
+    "🚓",
+    "🚨",
   ],
   "brasilien,janeiro": ["🇧🇷"],
   "braun,brauner": ["💩", "🟤"],
@@ -544,6 +549,7 @@
   ],
   "clever,intelligent,schlau,smart,wissen": ["🎓", "👓", "🤓", "🧠"],
   "cologne,domstadt,kölle,köln": ["🇩🇪", "🍺", "🍻", "🐐"],
+  "cringe": ["📸", "😐"],
   "dahinpreschen,düsen,eilen,flitzen,gelaufen,hasten,hechten,huschen,lauf,laufe,laufen,lief,läuft,preschen,rasen,rennen,sausen,schnell,schnellen,sprinten,spurten,stürmen": [
     "🏃",
     "🐆",
@@ -556,7 +562,7 @@
     "💻",
     "📶"
   ],
-  "datum,heute,jahr,jahre,jahren,kalender,tag,termin": ["📅", "📆"],
+  "datum,heute,jahr,jahre,jahren,kalender,tag,tage,tagen,termin": ["📅", "📆"],
   "dein,deine,deiner,dich,dir,du,irgendeiner,irgendjemand,irgendwer,jemand,jemanden,mensch,person,selbst": [
     "🧍",
     "🧑"
@@ -642,7 +648,7 @@
     "🪶"
   ],
   "felsen,felsgestein,gestein,stein": ["🗿", "🪨"],
-  "feminin,frau,frauen,fraulich,gebieterin,olle,weib,weiblich": ["♀", "👩"],
+  "feminin,frau,frauen,fraulich,gebieterin,mädchen,mädel,olle,weib,weiblich": ["♀", "👩"],
   "ficke,fuck,fucking,verfickt": ["🍆", "🍑", "💦", "😩", "🤤"],
   "fieber,pyrexie,thermometer": ["🌡", "🤒"],
   "filmlänge,laufzeit,spieldauer,spielzeit,vorführdauer": ["⏳", "🎥", "📏"],
@@ -720,6 +726,7 @@
   "grünanlage,park,parkanlage,stadtgarten,stadtpark": ["🌲", "🌳", "🏞"],
   "gummi,kondom,lümmeltüte,pariser,präser,präservativ,verhüterli": ["🍆", "🎈"],
   "habe,haben,hast,hatte,hatten": ["😊", "🙌", "🤝"],
+  "hilfe,sos": ["🆘"],
   "hintern": ["🍑"],
   "holland,niederlande,niederlanden": ["🇳🇱", "🧀"],
   "homofürst,schwanzlutscher,wichser,wixer,wixxer": ["🍆", "💦", "🖕", "😫"],
@@ -735,7 +742,7 @@
   ],
   "jahresende": ["❎", "🏁", "📅", "📆", "🔚", "🗓"],
   "jahreswechsel": ["📅", "📆", "🔃", "🔄", "🗓", "🪛"],
-  "junge,mann,maskulin,männer,männlich": ["♂️", "👴"],
+  "junge,jungs,mann,maskulin,männer,männlich": ["♂️", "👴"],
   "kinn": ["🤔"],
   "klima,wetter,wetterlage,witterung": [
     "☁",
