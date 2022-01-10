@@ -1,9 +1,9 @@
-import GeneratorConfig from "@/constants/interfaces/GeneratorConfig";
+import ModifierConfig from "@/constants/interfaces/ModifierConfig";
 import ParamType from "../../constants/enums/ParamType";
-import generate from "./generator";
+import modify from "./modifier";
 
-const config: GeneratorConfig = {
-  function: generate,
+const config: ModifierConfig = {
+  function: modify,
   label: "ɐᴉlɐɹʇsn∀",
   value: "australia",
   params: [

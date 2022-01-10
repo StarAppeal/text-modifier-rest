@@ -1,11 +1,11 @@
-import GeneratorResponse from "@/constants/interfaces/GeneratorResponse";
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
+import ModifierResponse from "@/constants/interfaces/ModifierResponse";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 import express from "express";
-import generators from "../generators";
+import modifiers from "../modifiers";
 const router = express.Router();
 
-Object.keys(generators).forEach((generatorKey: keyof typeof generators) => {
-  router.post("/" + generators[generatorKey].value, async function (
+Object.keys(modifiers).forEach((modifierKey: keyof typeof modifiers) => {
+  router.post("/" + modifiers[modifierKey].value, async function (
     req: express.Request,
     res: express.Response
   ) {
@@ -14,23 +14,23 @@ Object.keys(generators).forEach((generatorKey: keyof typeof generators) => {
 });
 
 router.get("/", async function (_req, res) {
-  const result = generators;
+  const result = modifiers;
   res.status(200).send(result);
 });
 
 async function compute(
-  req: GeneratorRequest,
+  req: ModifierRequest,
   url: string
-): Promise<GeneratorResponse> {
+): Promise<ModifierResponse> {
   console.log(`Received call to ${url}`);
-  const generatorFunction = generators[url].function;
+  const modifierFunction = modifiers[url].function;
   const oldTime = new Date().getTime();
-  const generated = await generatorFunction(req);
+  const modifyd = await modifierFunction(req);
   const time = new Date().getTime() - oldTime;
-  console.log(`Response is: ${generated}`);
+  console.log(`Response is: ${modifyd}`);
   console.log(`Time: ${time}`);
 
-  const result = { text: generated, time };
+  const result = { text: modifyd, time };
   return result;
 }
 

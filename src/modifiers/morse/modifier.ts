@@ -1,12 +1,12 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 import morseMap from "../../constants/maps/morse";
-import { getKeyByValue } from "../../globals/generatorHelpers";
+import { getKeyByValue } from "../../globals/modifierHelpers";
 
 const DEFAULT_PARAMS = {
   reverse: false,
 };
 
-export default function generate(request: GeneratorRequest) {
+export default function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
   return params.reverse
