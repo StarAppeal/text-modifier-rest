@@ -119,7 +119,7 @@ function replaceNumbers(str: string) {
 
 function removePunctuations(str: string): EmojiString {
   const lowerStr = str.toLowerCase();
-  if (!/[,|.|!|?|;|(|)|"|']/g.test(str)) {
+  if (!/[,|.|!|?|;|(|)|"|'|:]/g.test(str)) {
     return {
       strippedString: lowerStr,
       originalString: str,
@@ -128,8 +128,8 @@ function removePunctuations(str: string): EmojiString {
   }
 
   return {
-    strippedString: lowerStr.replace(/[,|.|!|?|;|(|)|"|']/g, ""),
+    strippedString: lowerStr.replace(/[,|.|!|?|;|(|)|"|'|:]/g, ""),
     originalString: str,
-    emojiIndex: /[,|.|!|?|;|(|)|"|']*$/.exec(str).index,
+    emojiIndex: /[,|.|!|?|;|(|)|"|'|:]*$/.exec(str).index,
   };
 }
