@@ -1,5 +1,5 @@
 import express from "express";
-import generators from "./routes/generators";
+import modifiers from "./routes/modifiers";
 
 const application = express();
 
@@ -13,6 +13,6 @@ application.use((_req, res, next) => {
   next();
 });
 application.use(express.json());
-application.use("/generators", generators);
+application.use("/modifiers", modifiers);
 
 export default application;

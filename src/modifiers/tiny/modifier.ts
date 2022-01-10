@@ -1,7 +1,7 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 import tinyMap from "../../constants/maps/tiny";
 
-export default function generate(request: GeneratorRequest) {
+export default function modify(request: ModifierRequest) {
   let result = "";
   request.text
     .toLowerCase()

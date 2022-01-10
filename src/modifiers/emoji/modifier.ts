@@ -1,5 +1,5 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
-import { extractLinks, insertLinks } from "../../globals/generatorHelpers";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
+import { extractLinks, insertLinks } from "../../globals/modifierHelpers";
 import { LinkExtraction } from "@/constants/interfaces/Links";
 import stringSimilarity from "string-similarity";
 import emojiMap from "../../constants/maps/emoji";
@@ -27,7 +27,7 @@ const numberMap = {
   "9": "9️⃣",
 };
 
-export default function generate(request: GeneratorRequest) {
+export default function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
   const textWithNumberEmojis = replaceAllNumbers(request.text);

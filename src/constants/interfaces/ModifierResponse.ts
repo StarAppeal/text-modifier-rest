@@ -1,6 +1,6 @@
-interface GeneratorRequest {
+interface ModifierRequest {
   text: string;
   time: number;
 }
 
-export default GeneratorRequest;
+export default ModifierRequest;

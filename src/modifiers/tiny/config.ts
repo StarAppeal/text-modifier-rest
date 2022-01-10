@@ -1,8 +1,8 @@
-import GeneratorConfig from "@/constants/interfaces/GeneratorConfig";
-import generate from "./generator";
+import ModifierConfig from "@/constants/interfaces/ModifierConfig";
+import modify from "./modifier";
 
-const config: GeneratorConfig = {
-  function: generate,
+const config: ModifierConfig = {
+  function: modify,
   label: "ᵗⁱⁿʸ",
   value: "tiny",
 };

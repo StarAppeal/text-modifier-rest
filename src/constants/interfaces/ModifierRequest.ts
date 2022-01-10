@@ -1,6 +1,6 @@
-interface GeneratorRequest {
+interface ModifierRequest {
   text: string;
   params?: Record<string, boolean | number>;
 }
 
-export default GeneratorRequest;
+export default ModifierRequest;

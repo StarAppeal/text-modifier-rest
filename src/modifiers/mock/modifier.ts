@@ -1,10 +1,10 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 
 const DEFAULT_PARAMS = {
   startLowerCase: false,
 };
 
-export default function generate(request: GeneratorRequest) {
+export default function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
   let result = "";

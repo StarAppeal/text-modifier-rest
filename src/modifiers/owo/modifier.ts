@@ -1,12 +1,12 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
-import { getLinks } from "../../globals/generatorHelpers";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
+import { getLinks } from "../../globals/modifierHelpers";
 
 const NUZZLE_TEXT = "*schmiegt an*";
 const DEFAULT_PARAMS = {
   nuzzle: true,
 };
 
-export default function generate(request: GeneratorRequest) {
+export default function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
   let links = getLinks(request.text);

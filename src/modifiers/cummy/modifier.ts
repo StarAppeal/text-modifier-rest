@@ -1,5 +1,5 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 
-export default function generator(request: GeneratorRequest) {
+export default function modifier(request: ModifierRequest) {
   return request.text;
 }

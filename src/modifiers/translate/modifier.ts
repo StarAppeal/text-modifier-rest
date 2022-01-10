@@ -1,4 +1,4 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 import translatte from "translatte";
 
 const langs = [
@@ -19,7 +19,7 @@ const DEFAULT_PARAMS = {
   numberTranslations: 3,
 };
 
-export default async function generate(request: GeneratorRequest) {
+export default async function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
   return await translateShitty(request.text, params.numberTranslations);
 }

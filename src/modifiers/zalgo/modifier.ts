@@ -1,10 +1,10 @@
-import GeneratorRequest from "@/constants/interfaces/GeneratorRequest";
+import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 
 const DEFAULT_PARAMS = {
   intensity: 2,
 };
 
-export default function generate(request: GeneratorRequest) {
+export default function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
   if (isNaN(params.intensity) || params.intensity < 0 || params.intensity > 100)
