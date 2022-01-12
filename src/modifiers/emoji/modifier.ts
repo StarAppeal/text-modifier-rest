@@ -41,7 +41,16 @@ const PUNCTUATION_MARKS = [
   "-",
 ];
 
-export default function generate(request: ModifierRequest) {
+const REGEX_EVERY_PUNCTUATION = new RegExp(
+  `[${PUNCTUATION_MARKS.join("")}]+`,
+  "g"
+);
+
+const REGEX_TRAILING_PUNCTUATION = new RegExp(
+  `[${PUNCTUATION_MARKS.join("")}]*$`
+);
+
+export default function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
   const textWithNumberEmojis = replaceAllNumbers(request.text);
@@ -142,15 +151,8 @@ function removePunctuations(str: string): EmojiString {
   }
 
   return {
-    strippedString: lowerStr.replace(getPunctuationRegex(false), ""),
+    strippedString: lowerStr.replace(REGEX_EVERY_PUNCTUATION, ""),
     originalString: str,
-    emojiIndex: getPunctuationRegex(true).exec(str).index,
+    emojiIndex: REGEX_TRAILING_PUNCTUATION.exec(str).index,
   };
-}
-
-function getPunctuationRegex(trailingPunctuations: boolean) {
-  return new RegExp(
-    `[${PUNCTUATION_MARKS.join("")}]${trailingPunctuations ? "*$" : "+"}`,
-    trailingPunctuations ? "" : "g"
-  );
 }
