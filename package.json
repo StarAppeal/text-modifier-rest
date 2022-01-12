@@ -1,5 +1,5 @@
 {
-  "name": "text-generator-rest",
+  "name": "text-modifier-rest",
   "version": "1.0.0",
   "description": "Rest-Services for various text generations",
   "main": "server.js",
