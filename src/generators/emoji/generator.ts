@@ -27,6 +27,20 @@ const numberMap = {
   "9": "9️⃣",
 };
 
+const PUNCTUATION_MARKS = [
+  ",",
+  ".",
+  "!",
+  "?",
+  ";",
+  "(",
+  ")",
+  '"',
+  "'",
+  ":",
+  "-",
+];
+
 export default function generate(request: GeneratorRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
@@ -119,7 +133,7 @@ function replaceNumbers(str: string) {
 
 function removePunctuations(str: string): EmojiString {
   const lowerStr = str.toLowerCase();
-  if (!/[,|.|!|?|;|(|)|"|'|:]/g.test(str)) {
+  if (!PUNCTUATION_MARKS.some((punctuation) => str.includes(punctuation))) {
     return {
       strippedString: lowerStr,
       originalString: str,
@@ -128,8 +142,15 @@ function removePunctuations(str: string): EmojiString {
   }
 
   return {
-    strippedString: lowerStr.replace(/[,|.|!|?|;|(|)|"|'|:]/g, ""),
+    strippedString: lowerStr.replace(getPunctuationRegex(false), ""),
     originalString: str,
-    emojiIndex: /[,|.|!|?|;|(|)|"|'|:]*$/.exec(str).index,
+    emojiIndex: getPunctuationRegex(true).exec(str).index,
   };
+}
+
+function getPunctuationRegex(trailingPunctuations: boolean) {
+  return new RegExp(
+    `[${PUNCTUATION_MARKS.join("")}]${trailingPunctuations ? "*$" : "+"}`,
+    trailingPunctuations ? "" : "g"
+  );
 }
