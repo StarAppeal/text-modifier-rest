@@ -27,6 +27,29 @@ const numberMap = {
   "9": "9️⃣",
 };
 
+const PUNCTUATION_MARKS = [
+  ",",
+  ".",
+  "!",
+  "?",
+  ";",
+  "(",
+  ")",
+  '"',
+  "'",
+  ":",
+  "-",
+];
+
+const REGEX_EVERY_PUNCTUATION = new RegExp(
+  `[${PUNCTUATION_MARKS.join("")}]+`,
+  "g"
+);
+
+const REGEX_TRAILING_PUNCTUATION = new RegExp(
+  `[${PUNCTUATION_MARKS.join("")}]*$`
+);
+
 export default function modify(request: ModifierRequest) {
   const params = { ...DEFAULT_PARAMS, ...request.params };
 
@@ -59,7 +82,8 @@ export default function modify(request: ModifierRequest) {
     if (dbWord && dbWord.length) {
       emojiArray = JSON.parse(JSON.stringify(dbWord));
     } else {
-      result += " ";
+      result +=
+        emojiString.originalString.substring(emojiString.emojiIndex) + " ";
       continue;
     }
     numberEmojis = Math.floor(Math.random() * params.maxEmojis) + 1;
@@ -118,7 +142,7 @@ function replaceNumbers(str: string) {
 
 function removePunctuations(str: string): EmojiString {
   const lowerStr = str.toLowerCase();
-  if (!/[,|.|!|?|;|(|)|"]/g.test(str)) {
+  if (!PUNCTUATION_MARKS.some((punctuation) => str.includes(punctuation))) {
     return {
       strippedString: lowerStr,
       originalString: str,
@@ -127,8 +151,8 @@ function removePunctuations(str: string): EmojiString {
   }
 
   return {
-    strippedString: lowerStr.replace(/[,|.|!|?|;|(|)|"]/g, ""),
+    strippedString: lowerStr.replace(REGEX_EVERY_PUNCTUATION, ""),
     originalString: str,
-    emojiIndex: /[,|.|!|?|;|(|)|"]*$/.exec(str).index,
+    emojiIndex: REGEX_TRAILING_PUNCTUATION.exec(str).index,
   };
 }
