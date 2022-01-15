@@ -76,7 +76,7 @@
     "🗂️"
   ],
   "abbestellung,gegenerklärung,widerruf,widerrufung": ["🔕", "🙅", "🚫"],
-  "abbilden,abbildung,ablichtung,abzug,aufnahme,ausbelichtung,bild,bildnis,foto,fotoaufnahme,fotografie,fotos,lichtbild": [
+  "abbilden,abbildung,ablichtung,abzug,aufnahme,ausbelichtung,bild,bildnis,bildschirmfoto,foto,fotoaufnahme,fotografie,fotos,lichtbild,screenshot": [
     "🎞",
     "📷",
     "📸",
@@ -135,7 +135,7 @@
     "💧",
     "🕳"
   ],
-  "abheben,bares,bargeld,cash,geldautomat,geldkasse,geldkassette,geldkasten,geldschublade,kasse,ladenkasse": [
+  "abheben,bares,bargeld,cash,geldautomat,geldkasse,geldkassette,geldkasten,geldschublade,kasse,ladenkasse,schulden": [
     "🏧",
     "💰",
     "💴",
@@ -263,7 +263,7 @@
     "📅",
     "🥂"
   ],
-  "amüsant,belustigend,gelächter,humor,kaputtlachen,kichern,komik,komisch,lachen,meme,memes,spaßig,ulkig,unterhaltsam,witz,witzig": [
+  "amüsant,belustigend,gelächter,humor,kaputtlachen,kichern,komik,komisch,lachen,lustig,meme,memes,spaßig,ulkig,unterhaltsam,witz,witzig": [
     "😂",
     "😄",
     "😅",
@@ -418,7 +418,7 @@
     "🚫",
     "🤷"
   ],
-  "auto,autoverkehr,straßenverkehr,straßenverkehren": [
+  "auto,autos,autoverkehr,straßenverkehr,straßenverkehren": [
     "🚍",
     "🚕",
     "🚗",
