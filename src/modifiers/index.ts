@@ -7,11 +7,11 @@ import fraktur from "./fraktur/config";
 import leet from "./leet/config";
 import mock from "./mock/config";
 import morse from "./morse/config";
+import ogre from "./ogre/config";
 import owo from "./owo/config";
 import tiny from "./tiny/config";
 import translate from "./translate/config";
 import zalgo from "./zalgo/config";
-import ogre from "./ogre/config";
 
 export default {
   [australia.value]: australia,
@@ -23,9 +23,9 @@ export default {
   [leet.value]: leet,
   [mock.value]: mock,
   [morse.value]: morse,
+  [ogre.value]: ogre,
   [owo.value]: owo,
   [tiny.value]: tiny,
   [translate.value]: translate,
   [zalgo.value]: zalgo,
-  [ogre.value]: ogre,
 };
