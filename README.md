@@ -21,6 +21,7 @@
   - _startLowerCase_: boolean - start with a lowercase or an uppercase letter
 - _Morse_ for **-- --- .-. ... . -.-. --- -.. .**
   - _reverse_: boolean - whether or not to translate **from** or **to** _Morse_
+- _Ogre_ for **Meddl Loide**
 - _owo_ for **aww youw owo nyeeds**
   - _nuzzle_: boolean - add **schmiegt an** to the end of the text. More language support to come.
 - _Tiny_ for **ᵛᵉʳʸ ˢᵐᵃˡˡ ᵗᵉˣᵗ**
