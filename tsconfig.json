@@ -9,6 +9,7 @@
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": ".",
+    "lib": ["ES2021.String"],
     "resolveJsonModule": true,
     "paths": {
       "@/*": ["src/*", "dist/*"]
