@@ -44,4 +44,8 @@ function getKeyByValue(value: string, map: Record<string, string>) {
   return Object.keys(map).find((key) => map[key] === value);
 }
 
-export { getKeyByValue, getLinks, extractLinks, insertLinks };
+function getRandomNumber(max: number): number {
+  return Math.floor(Math.random() * max);
+}
+
+export { getKeyByValue, getLinks, extractLinks, insertLinks, getRandomNumber };
