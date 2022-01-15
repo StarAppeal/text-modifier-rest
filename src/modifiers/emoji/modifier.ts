@@ -1,5 +1,9 @@
 import ModifierRequest from "@/constants/interfaces/ModifierRequest";
-import { extractLinks, insertLinks } from "../../globals/modifierHelpers";
+import {
+  extractLinks,
+  insertLinks,
+  getRandomNumber,
+} from "../../globals/modifierHelpers";
 import { LinkExtraction } from "@/constants/interfaces/Links";
 import stringSimilarity from "string-similarity";
 import emojiMap from "../../constants/maps/emoji";
@@ -86,11 +90,12 @@ export default function modify(request: ModifierRequest) {
         emojiString.originalString.substring(emojiString.emojiIndex) + " ";
       continue;
     }
-    numberEmojis = Math.floor(Math.random() * params.maxEmojis) + 1;
+    numberEmojis = getRandomNumber(params.maxEmojis) + 1; // should have atleast 1 emoji
     emoji = "";
     if (emojiArray) {
       for (let i = 0; i < numberEmojis; i++) {
-        emoji = getRandomOfArray(emojiArray);
+        const randomNumber = getRandomNumber(emojiArray.length);
+        emoji = emojiArray[randomNumber];
         if (emojis.includes(emoji) || !emoji) {
           continue;
         }
@@ -115,16 +120,6 @@ function replaceAllNumbers(str: string) {
   });
 
   return insertLinks(editedTextParts, splitString.extractedLinks);
-}
-
-function getRandomOfArray(arr: string[]) {
-  if (!arr.length) {
-    return "";
-  }
-  const index = Math.floor(Math.random() * arr.length);
-  const selected = arr[index];
-  arr.splice(index, 1);
-  return selected;
 }
 
 function replaceNumbers(str: string) {

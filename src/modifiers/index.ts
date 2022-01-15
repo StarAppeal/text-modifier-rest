@@ -11,6 +11,7 @@ import owo from "./owo/config";
 import tiny from "./tiny/config";
 import translate from "./translate/config";
 import zalgo from "./zalgo/config";
+import ogre from "./ogre/config";
 
 export default {
   [australia.value]: australia,
@@ -26,4 +27,5 @@ export default {
   [tiny.value]: tiny,
   [translate.value]: translate,
   [zalgo.value]: zalgo,
+  [ogre.value]: ogre,
 };
