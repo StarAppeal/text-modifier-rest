@@ -42,9 +42,6 @@
     "🙌"
   ],
   "a": ["🅰"],
-  "aachen,aix-la-chapelle,augsburg,boche,bochum,bonn,bonner,brandenburg,bremen,d'dorf,deutsch,deutsche,deutschen,deutscher,deutschland,dortmund,dresden,duisburg,düsseldorf,essen,frankenfurt,frankfurt,freiburg,gelsenkirchen,germane,germanen,germanisch,gummihals,hamburg,hannover,hessen,holstein,inländer,karlsruhe,koblenz,leipzig,lübeck,mainz,mannheim,mecklenburg,mecklenburg-vorpommern,monnem,mönchengladbach,münster,niedersachsen,nordrhein-westfalen,nrw,nürnberg,quadratestadt,rheinland-pfalz,saarbrücken,saarland,sachsen,sachsen-anhalt,schalke,schleswig,schleswig-holstein,stuttgart,teutone,teutonen,teutonisch,thüringen,vorpommern,weimar,westfalen,wiesbaden,wolfsburg,wuppertal,württemberg": [
-    "🇩🇪"
-  ],
   "aargau": ["🇨🇭", "🇩🇪"],
   "abballern,abknallen,abschießen,einschlag,erschießen,erschossen,geschossen,losballern,niederschießen,schuss,totschießen,umlegen,umnieten,wegknallen,wegpusten": [
     "💥",
@@ -135,7 +132,7 @@
     "💧",
     "🕳"
   ],
-  "abheben,bares,bargeld,cash,geldautomat,geldkasse,geldkassette,geldkasten,geldschublade,kasse,ladenkasse,schulden": [
+  "abheben,bares,bargeld,cash,deflation,geldautomat,geldkasse,geldkassette,geldkasten,geldschublade,inflation,kasse,ladenkasse,schulden": [
     "🏧",
     "💰",
     "💴",
@@ -167,7 +164,7 @@
     "🧟",
     "🪦"
   ],
-  "abmessung,ausmaß,ausweiten,dehnen,dimension,erweitern,expandieren,extendieren,größe,kurz,lang,lange,langer,länge,maß,maße,spreizen,umfang,weit,weite,weiten": [
+  "abmessung,ausmaß,ausweiten,dehnen,dimension,erweitern,expandieren,extendieren,größe,kurz,kürzer,lang,lange,langer,länge,länger,maß,maße,spreizen,umfang,weit,weite,weiten": [
     "📏",
     "📐"
   ],
@@ -187,7 +184,7 @@
     "📉",
     "📊"
   ],
-  "abschließen,abschluss,absolvieren,bewältigung,end,ende,endgültig,endrunde,erfüllen,erfüllung,erledigen,final,finale,finalrunde,komplett,komplette,kompletten,schlussstrich,unumkehrbar,unwiderruflich,unwiederbringlich,vollbringung,vollendung,ziel,zielgerade": [
+  "abschließen,abschluss,absolvieren,bewältigung,end,ende,enden,endgültig,endrunde,erfüllen,erfüllung,erledigen,final,finale,finalrunde,komplett,komplette,kompletten,schlussstrich,unumkehrbar,unwiderruflich,unwiederbringlich,vollbringung,vollendung,ziel,zielgerade": [
     "🏁",
     "🏆",
     "🔚"
@@ -215,6 +212,9 @@
   ],
   "afd,braunhemd,faschist,faschistisch,faschistoid,fascho,hitler,hitlerjugend,nationalsozialist,nationalsozialistisch,nazi,nazi-braut,nazis,nazisse,rechtsaußen,rechtsextrem,rechtsextremist,rechtsradikal,rechtsradikaler,schutzstaffel": [
     "💩"
+  ],
+  "aix-la-chapelle,augsburg,boche,bochum,bonn,bonner,brandenburg,bremen,d'dorf,deutsch,deutsche,deutschen,deutscher,deutschland,dortmund,dresden,duisburg,düsseldorf,essen,frankenfurt,frankfurt,freiburg,gelsenkirchen,germane,germanen,germanisch,gummihals,hamburg,hannover,hessen,holstein,inländer,karlsruhe,koblenz,leipzig,lübeck,mainz,mannheim,mecklenburg,mecklenburg-vorpommern,monnem,mönchengladbach,münster,niedersachsen,nordrhein-westfalen,nrw,nürnberg,quadratestadt,rheinland-pfalz,saarbrücken,saarland,sachsen,sachsen-anhalt,schalke,schleswig,schleswig-holstein,stuttgart,teutone,teutonen,teutonisch,thüringen,vorpommern,weimar,westfalen,wiesbaden,wolfsburg,wuppertal,württemberg": [
+    "🇩🇪"
   ],
   "albion,brexit,brite,briten,britisch,britische,britischen,engl,engl.,england,englisch,englische,englischen,engländer,großbritannien,london": [
     "🇬🇧",
@@ -253,7 +253,7 @@
     "⏩",
     "▶️"
   ],
-  "alt,alte,alter,altes": ["👴", "👵"],
+  "alt,alte,alter,altes,älteste": ["👴", "👵"],
   "altjahrabend,altjahrsabend,altjahrstag,jahresabschluss,jahresausklang,jahreswende,neujahr,silvester": [
     "🍸",
     "🍾",
@@ -263,7 +263,7 @@
     "📅",
     "🥂"
   ],
-  "amüsant,belustigend,gelächter,humor,kaputtlachen,kichern,komik,komisch,lachen,lustig,meme,memes,spaßig,ulkig,unterhaltsam,witz,witzig": [
+  "amüsant,belustigend,gelächter,haha,hahaha,hehe,humor,kaputtlachen,kichern,komik,komisch,komödie,lachen,lustig,meme,memes,spaßig,ulkig,unterhaltsam,witz,witzig": [
     "😂",
     "😄",
     "😅",
@@ -336,12 +336,15 @@
     "🔦",
     "🕵"
   ],
-  "anwesend,da,dabei,daselbst,dazu,dort,dortselbst,ebenda,ebendort,her,herbei,hier,hierbei,hin,hinein,im,in,in's,ins,zum,zur": [
+  "anwesend,da,dabei,daselbst,dazu,dort,dortselbst,ebenda,ebendort,her,herbei,hier,hierbei,hin,hinein,im,in,in's,ins,irgendwo,zum,zur": [
     "👉",
     "📍",
     "🗺"
   ],
-  "aqua,aquatisch,durchnässt,feucht,flüssig,flüssigkeit,nass,nässe,triefen,wasser": [
+  "applaudieren,applaus,beifall,beklatschen,klatschen": [
+    "👏"
+  ],
+  "aqua,aquatisch,durchfluten,durchnässt,feucht,flut,fluten,flüssig,flüssigkeit,nass,nässe,triefen,wasser,welle,überfluten": [
     "🌊",
     "💦",
     "💧",
@@ -410,7 +413,11 @@
     "🏖",
     "🏜"
   ],
-  "ausgeschlossen,denkste,egal,fehlanzeige,furzegal,gleichgültig,hauchdünn,kaum,kein,keine,keinen,keinerlei,keinesfalls,keineswegs,knapp,minus,mitnichten,naa,nee,negativ,negative,negativen,nein,nicht,nichtnie,niemals,nimmerdar,nimmermehr,nö,nöö,piepegal,pupsegal,scheißegal,schiskojenno,schittegal,schnuppe,schnurz,schnurzegal,schnurzpiepe,schnurzpiepegal,wumpe,wurscht": [
+  "ausflug,reise,reisen,urlaub": [
+    "🧳",
+    "🏖"
+  ],
+  "ausgeschlossen,denkste,egal,fehlanzeige,furzegal,gleichgültig,hauchdünn,kaum,kein,keine,keinen,keinerlei,keinesfalls,keineswegs,knapp,minus,mitnichten,naa,ne,nee,negativ,negative,negativen,nein,nicht,nichtnie,niemals,nimmerdar,nimmermehr,nö,nöö,piepegal,pupsegal,scheißegal,schiskojenno,schittegal,schnuppe,schnurz,schnurzegal,schnurzpiepe,schnurzpiepegal,wumpe,wurscht": [
     "❌",
     "👎",
     "😡",
@@ -470,6 +477,11 @@
   ],
   "begrüßen,begrüßung,grüß,hallo,hi,moin,tach": ["👋", "🙋"],
   "beide,zwei": ["2️⃣", "✌", "👥", "🕑"],
+  "bekifft,cannabis,cbd,dicht,dope,drogenberauscht,druff,ganja,gras,high,kraut,marihuana,ott,stoned,weed,zugedröhnt,zugeknallt": [
+    "🌱",
+    "🌿",
+    "🚬",
+  ],
   "benz,bmw,citroen,fiat,ford,honda,hyundai,mercedes,mustang,nissan,opel,peugeot,porsche,renault,suzuki,tesla,toyota,volkswagen,vw": [
     "🏎",
     "🚕",
@@ -489,7 +501,7 @@
     "👇",
     "👉"
   ],
-  "bescheuert,blöd,blödian,blödmann,depp,dumm,dummheit,dummkopf,dussel,idiot,mongo,pfosten,schwachkopf,schwachsinn,spasti,trottel,vollpfosten": [
+  "bescheuert,blöd,blödian,blödmann,depp,dumm,dumme,dummen,dummer,dummes,dummheit,dummkopf,dussel,idiot,mongo,pfosten,schwachkopf,schwachsinn,spasti,trottel,vollpfosten": [
     "🤡",
     "🤪"
   ],
@@ -519,7 +531,7 @@
     "⬅",
     "🔙"
   ],
-  "blown,bombe,detonation,explosion": ["💢", "💣", "💥", "🤯"],
+  "blown,bombe,detonation,explosion,knall,urknall": ["💢", "💣", "💥", "🤯"],
   "brachiosaurus,brontosaurus,dino,dinosaurier,flugsaurier,pterodactyl,saurier,saurus,stegosaurus,t-rex,triceratops,tyrannosaurus": [
     "☄",
     "🐔",
@@ -529,7 +541,7 @@
     "🦖"
   ],
   "brain,gehirn,hirn,psychonauts,vergessen,verstand": ["🧠", "🤔"],
-  "brand,brandbekämpfer,braunfäule,feuer,feuerwehr,feuerwehren,feuerwehrleute,mehltau": [
+  "brand,brandbekämpfer,brannte,braunfäule,brennen,brennenden,brennt,feuer,feuerwehr,feuerwehren,feuerwehrleute,mehltau": [
     "‍🚒",
     "🔥",
     "🕯"
@@ -550,7 +562,7 @@
   "clever,intelligent,schlau,smart,wissen": ["🎓", "👓", "🤓", "🧠"],
   "cologne,domstadt,kölle,köln": ["🇩🇪", "🍺", "🍻", "🐐"],
   "cringe": ["📸", "😐"],
-  "dahinpreschen,düsen,eilen,flitzen,gelaufen,hasten,hechten,huschen,lauf,laufe,laufen,lief,läuft,preschen,rasen,rennen,sausen,schnell,schnellen,sprinten,spurten,stürmen": [
+  "dahinpreschen,düsen,eilen,flitzen,gelaufen,hasten,hechten,huschen,lauf,laufe,laufen,lief,läuft,preschen,rasen,rennen,sausen,schnell,schnellen,sprinten,spurten,stürmen,verpiss,verpissen": [
     "🏃",
     "🐆",
     "💨"
@@ -605,7 +617,7 @@
     "🔍",
     "🪟"
   ],
-  "dödel,glied,kindermacher,lörres,lümmel,penis,phallus,pimmel,schaft,schniedel,schniedelwutz,schwanz,schwengel": [
+  "dödel,glied,kindermacher,lörres,lümmel,penis,phallus,pimmel,sex,schaft,schniedel,schniedelwutz,schwanz,schwengel": [
     "🍆",
     "💦",
     "😫"
@@ -718,7 +730,13 @@
     "🪴"
   ],
   "gegangen,gehe,gehen,hingehen,latschen": ["👣", "🚶"],
-  "gemalt,malen,maler,zeichnen,zeichner,zeichnet": ["‍🎨", "✏", "✒", "📐", "🖍"],
+  "gemalt,gemälde,kunst,malen,maler,zeichnen,zeichner,zeichnet": ["‍🎨", "✏", "✒", "📐", "🖍"],
+  "geschrieben,heruntergeschrieben,herunterschreiben,niederschreiben,schreiben": [
+    "✍️",
+    "📝",
+    "🖋"
+  ],
+  "gestellt,stand,stehen,steht,stünde": ["🧍"],
   "gleich": ["⚖️", "😐"],
   "google": ["🔍"],
   "großmutter,oma,oma's,omas": ["👵"],
@@ -732,7 +750,7 @@
   "homofürst,schwanzlutscher,wichser,wixer,wixxer": ["🍆", "💦", "🖕", "😫"],
   "horchen,hören,hört,lauschen,ohr,ohren": ["👂", "🙉"],
   "hure,hurensohn": ["👠", "👩‍👦", "💃", "💶", "🤬"],
-  "ich,mich,mir": ["🙋", "🧍"],
+  "ich,individualität,individuell,mich,mir,körper": ["🙋", "🧍"],
   "ihr,ihre,ihrem,ihren,ihrer,ihres,sie": ["👉", "👩"],
   "itaka,itaker,italien,italiener,italienisch,italienische,italienischen,italiens,spaghettifresser,stiefel": [
     "🇮🇹",
@@ -851,6 +869,23 @@
     "🔢",
     "🤳"
   ],
+  "satz,sätze,wort,worte,worten": [
+    "📃",
+    "📄",
+    "📋",
+    "📑",
+    "📓",
+    "📔",
+    "📖",
+    "📙",
+    "📜",
+    "📝",
+    "🖊",
+    "🖋"
+  ],
+  "sauer,saure,limette,zitrone": [
+    "🍋"
+  ],
   "schnee,schneedecke,schneien,schneit": [
     "☃",
     "⛄",
@@ -864,7 +899,6 @@
   "seife,spülen,waschen": ["💦", "💧", "🚿", "🧼"],
   "sieben": ["7️⃣", "🕖"],
   "signalisieren,zeigen,zeigte": ["👉", "🪧"],
-  "stand,stehen,steht,stünde": ["🧍"],
   "trans,transsexualität,transsexuell": ["⚧️", "🏳‍🌈", "🏳️‍⚧️"],
   "trump": ["🎺", "💩", "🚽"],
   "tür,türe,türen": ["🔑", "🚪"],
@@ -877,7 +911,6 @@
   ],
   "ungarn": ["🇭🇺"],
   "united,vereinigte,vereinigten,vereinte,vereinten": ["🇬🇧", "🇺🇳", "🇺🇸", "🌐"],
-  "urknall": ["💣", "💥"],
   "verarschen,vergackeiern,verkaspern,verschaukeln,veräppeln": ["💩", "🤡"],
   "vier,viermal": ["4️⃣", "🕓"],
   "weiß": ["⚪"],
@@ -903,20 +936,6 @@
     "🧤"
   ],
   "wochenende,wochenenden": ["🍻", "🎉", "🎮", "💃", "🗓️", "🚵"],
-  "wort,worte,worten": [
-    "📃",
-    "📄",
-    "📋",
-    "📑",
-    "📓",
-    "📔",
-    "📖",
-    "📙",
-    "📜",
-    "📝",
-    "🖊",
-    "🖋"
-  ],
   "wurzel": ["🪵"],
   "yen,¥": ["💴", "💹"],
   "youtube": ["⏯", "⏸", "▶️", "🎥", "📹", "🔔"],
