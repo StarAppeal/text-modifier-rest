@@ -53,10 +53,11 @@
     "🔨",
     "🚫"
   ],
-  "abbedingen,abbestellen,abkündigen,abschaffen,annullieren,aufheben,aufkündigen,auflösen,ausgleichen,kündigen,kündigt,kündigte,stornieren,terminieren,tilgen,zurückziehen": [
+  "abbedingen,abbestellen,abkündigen,abschaffen,annullieren,aufheben,aufkündigen,auflösen,ausgleichen,auslöschen,eliminieren,entfernen,kündigen,kündigt,kündigte,löschen,stornieren,terminieren,tilgen,zurückziehen,zurücksetzen": [
     "❌",
     "➖",
-    "🚫"
+    "🚫",
+    "🗑️"
   ],
   "abbekommen,abholen,bekam,bekamen,bekomme,bekommen,bekommt,beziehen,einsammeln,erhalten,erlangen,holen,holt,kriegen": [
     "🎁",
@@ -80,7 +81,7 @@
     "🖼",
     "🤳"
   ],
-  "abbrechen,abbruch,abgebrochen,anhalten,aufhalten,halt,stehenbleiben,stop,stoppen": [
+  "abbrechen,abbruch,abgebrochen,aufhalten,halt,stehenbleiben,stop,stoppen": [
     "⏹",
     "⛔",
     "✋",
@@ -132,7 +133,7 @@
     "💧",
     "🕳"
   ],
-  "abheben,bares,bargeld,cash,deflation,geldautomat,geldkasse,geldkassette,geldkasten,geldschublade,inflation,kasse,ladenkasse,schulden": [
+  "abheben,bares,bargeld,cash,deflation,geldautomat,geldkasse,geldkassette,geldkasten,geldschublade,inflation,kasse,ladenkasse,preis,schulden": [
     "🏧",
     "💰",
     "💴",
@@ -184,22 +185,22 @@
     "📉",
     "📊"
   ],
-  "abschließen,abschluss,absolvieren,bewältigung,end,ende,enden,endgültig,endrunde,erfüllen,erfüllung,erledigen,final,finale,finalrunde,komplett,komplette,kompletten,schlussstrich,unumkehrbar,unwiderruflich,unwiederbringlich,vollbringung,vollendung,ziel,zielgerade": [
+  "abschließen,abschluss,absolvieren,abzeichen,auszeichnen,bewältigung,end,ende,enden,endgültig,endrunde,erfüllen,erfüllung,erledigen,final,finale,finalrunde,komplett,komplette,kompletten,schlussstrich,unumkehrbar,unwiderruflich,unwiederbringlich,verleihen,vollbringung,vollendung,ziel,zielgerade": [
     "🏁",
-    "🏆",
-    "🔚"
+    "🏆"
   ],
-  "abschmecken,degustieren,kosten,probieren,schmecken,verkosten": [
+  "abschmecken,degustieren,geschmack,kosten,probieren,schmecken,verkosten": [
     "🍴",
     "🍷",
     "🍽",
     "🥄",
     "🥣"
   ],
-  "abschwarten,geschlagen,schicksalsschlag,schlag,schlagen,schlug,schlägt,verdreschen,verhauen,verkloppen,vermöbeln,verprügeln,versohlen,zusammenschlagen": [
+  "abschwarten,bekloppt,geschlagen,hammer,hämmern,schicksalsschlag,schlag,schlagen,schlug,schlägt,verdreschen,verhauen,verkloppen,vermöbeln,verprügeln,versohlen,zusammenschlagen": [
     "👊",
     "💥",
-    "🥊"
+    "🥊",
+    "🔨"
   ],
   "abstellplatz,einstellplatz,parkbox,parkplatz,parkplätze,stellplatz": ["🅿"],
   "acht": ["8️⃣", "🎱", "🕗"],
@@ -213,7 +214,14 @@
   "afd,braunhemd,faschist,faschistisch,faschistoid,fascho,hitler,hitlerjugend,nationalsozialist,nationalsozialistisch,nazi,nazi-braut,nazis,nazisse,rechtsaußen,rechtsextrem,rechtsextremist,rechtsradikal,rechtsradikaler,schutzstaffel": [
     "💩"
   ],
-  "aix-la-chapelle,augsburg,boche,bochum,bonn,bonner,brandenburg,bremen,d'dorf,deutsch,deutsche,deutschen,deutscher,deutschland,dortmund,dresden,duisburg,düsseldorf,essen,frankenfurt,frankfurt,freiburg,gelsenkirchen,germane,germanen,germanisch,gummihals,hamburg,hannover,hessen,holstein,inländer,karlsruhe,koblenz,leipzig,lübeck,mainz,mannheim,mecklenburg,mecklenburg-vorpommern,monnem,mönchengladbach,münster,niedersachsen,nordrhein-westfalen,nrw,nürnberg,quadratestadt,rheinland-pfalz,saarbrücken,saarland,sachsen,sachsen-anhalt,schalke,schleswig,schleswig-holstein,stuttgart,teutone,teutonen,teutonisch,thüringen,vorpommern,weimar,westfalen,wiesbaden,wolfsburg,wuppertal,württemberg": [
+  "aggressiv,aufgebracht,abscheu,entzürnt,erbost,genervt,hass,wut,wütend,zorn,zornig": [
+    "😡",
+    "🤬",
+    "😤",
+    "🗯",
+    "😠"
+  ],
+  "aix-la-chapelle,augsburg,boche,bochum,bonn,bonner,brandenburg,bremen,d'dorf,deutsch,deutsche,deutschen,deutscher,deutschland,dortmund,dresden,duisburg,düsseldorf,frankenfurt,frankfurt,freiburg,gelsenkirchen,germane,germanen,germanisch,gummihals,hamburg,hannover,holstein,inländer,karlsruhe,koblenz,leipzig,lübeck,mainz,mannheim,mecklenburg,mecklenburg-vorpommern,monnem,mönchengladbach,münster,niedersachsen,nordrhein-westfalen,nrw,nürnberg,quadratestadt,rheinland-pfalz,saarbrücken,saarland,sachsen,sachsen-anhalt,schalke,schleswig,schleswig-holstein,stuttgart,teutone,teutonen,teutonisch,thüringen,vorpommern,weimar,westfalen,wiesbaden,wolfsburg,wuppertal,württemberg": [
     "🇩🇪"
   ],
   "albion,brexit,brite,briten,britisch,britische,britischen,engl,engl.,england,englisch,englische,englischen,engländer,großbritannien,london": [
@@ -263,7 +271,7 @@
     "📅",
     "🥂"
   ],
-  "amüsant,belustigend,gelächter,haha,hahaha,hehe,humor,kaputtlachen,kichern,komik,komisch,komödie,lachen,lustig,meme,memes,spaßig,ulkig,unterhaltsam,witz,witzig": [
+  "amüsant,belustigend,gelächter,haha,hahaha,hehe,humor,kaputtlachen,kichern,komik,komisch,komödie,lachen,lustig,meme,memes,spaß,spaßig,ulkig,unterhaltsam,witz,witzig": [
     "😂",
     "😄",
     "😅",
@@ -291,6 +299,9 @@
   "angst,angsterfüllt,angstvoll,bange,besorgt,furcht,furchtsam,fürchten,grauen,phobie,phobisch,zitternd,ängstlich": [
     "😨",
     "😱"
+  ],
+  "anhalten,pause,pausieren,unterbrechen": [
+    "⏸️"
   ],
   "anhimmeln,beziehung,freund,freundin,lebensabschnittsgefährtin,lebensgefährtin,lebenspartnerin,liebe,lieben,partnerin,reizend,verehren,vergöttern": [
     "❤️",
@@ -336,10 +347,11 @@
     "🔦",
     "🕵"
   ],
-  "anwesend,da,dabei,daselbst,dazu,dort,dortselbst,ebenda,ebendort,her,herbei,hier,hierbei,hin,hinein,im,in,in's,ins,irgendwo,zum,zur": [
+  "anwesend,da,dabei,daselbst,dazu,dort,dortselbst,ebenda,ebendort,her,herbei,hier,hierbei,hin,hinein,im,in,in's,ins,irgendwo,zu,zum,zur": [
     "👉",
     "📍",
-    "🗺"
+    "🗺",
+    "➡️"
   ],
   "applaudieren,applaus,beifall,beklatschen,klatschen": [
     "👏"
@@ -354,7 +366,7 @@
   "ard": ["1️⃣️", "📺"],
   "arsch,arschgesicht,arschloch": ["🍑", "💩", "🖕"],
   "arschgeige": ["🍑", "🎻", "🖕"],
-  "arznei,arzneimittel,droge,drogen,heilmittel,heilsubstanz,medikament,medikamente,medizin,mittel,pharmazeutikum,präparat,remedium,therapeutikum": [
+  "arznei,arzneimittel,droge,drogen,heilen,heilt,heilmittel,heilsubstanz,medikament,medikamente,medizin,mittel,pharmazeutikum,präparat,remedium,therapeutikum": [
     "🏥",
     "💉",
     "💊"
@@ -437,6 +449,12 @@
     "🛣",
     "🛺"
   ],
+  "autor,geschrieben,heruntergeschrieben,herunterschreiben,niederschreiben,schreiben": [
+    "✍️",
+    "📝",
+    "🖋",
+    "🧑‍💻"
+  ],
   "autounfall,karambolage,kollision,verkehrsunfall,zusammenstoß": [
     "⛑",
     "🏥",
@@ -449,8 +467,9 @@
     "🛑",
     "🤕"
   ],
+  "ausdruck,ausruf": ["❗"],
   "b": ["🅱"],
-  "babbele,babbeln,besprechen,gesagt,konversieren,parlieren,plaudern,plauschen,quasseln,quatern,quatschen,reden,referat,rief,rufen,ruft,sag,sag',sage,sagen,sagt,sagte,schnacken,sprache,sprechen,sprecherin,sprich,spricht,vortrag": [
+  "babbele,babbeln,besprechen,gesagt,kommunikation,konversieren,parlieren,plaudern,plauschen,quasseln,quatern,quatschen,reden,referat,rief,rufen,ruft,sag,sag',sage,sagen,sagt,sagte,schnacken,sprache,sprechen,sprecherin,sprich,spricht,vortrag": [
     "👄",
     "💬",
     "📣",
@@ -496,7 +515,7 @@
   "berlin,bundeshauptstadt,bundeskabinett,bundesregierung": ["🇩🇪", "🏛"],
   "bernd": ["🍞"],
   "berühmtheit,promi,prominenter,superstar,vip": ["⭐", "🌟"],
-  "besagten,das,dasjenige,den,der,deren,dessen,die,dies,diese,diesem,diesen,dieser,dieserart,dieses,ebenderselbe,ebendiese,ebendieser,ebenjener,ebensolche,jene,jener,jenes,letzterer,nämlicher,selbige,selbiger,selbiges,solch,solche,solchen,solcher,solcherart,solchergestalt,solcherlei,solches": [
+  "besagten,das,dasjenige,den,der,deren,dessen,die,dies,diese,diesem,diesen,dieser,dieserart,dieses,ebenderselbe,ebendiese,ebendieser,ebenjener,ebensolche,jene,jener,jenes,letzterer,nämlicher,selbige,selbiger,selbiges,so,solch,solche,solchen,solcher,solcherart,solchergestalt,solcherlei,solches": [
     "☝️",
     "👇",
     "👉"
@@ -531,7 +550,7 @@
     "⬅",
     "🔙"
   ],
-  "blown,bombe,detonation,explosion,knall,urknall": ["💢", "💣", "💥", "🤯"],
+  "blown,bombe,detonation,explodieren,explosion,knall,urknall": ["💢", "💣", "💥", "🤯"],
   "brachiosaurus,brontosaurus,dino,dinosaurier,flugsaurier,pterodactyl,saurier,saurus,stegosaurus,t-rex,triceratops,tyrannosaurus": [
     "☄",
     "🐔",
@@ -617,13 +636,14 @@
     "🔍",
     "🪟"
   ],
-  "dödel,glied,kindermacher,lörres,lümmel,penis,phallus,pimmel,sex,schaft,schniedel,schniedelwutz,schwanz,schwengel": [
+  "dödel,glied,kindermacher,lörres,lümmel,penis,phallus,pimmel,schaft,schniedel,schniedelwutz,schwanz,schwengel": [
     "🍆",
     "💦",
     "😫"
   ],
   "döner": ["🌯", "🥙"],
   "edelstein,juwel,klunker,schmuckstein": ["💍", "💎"],
+  "ei": ["🥚"],
   "eigenen,eigenes,mein,meine,meinem,meinen,meiner": ["☝️", "🙋"],
   "eigentlich,gegebenenfalls,normalerweise,vielleicht": ["🤔", "🤨", "🤷"],
   "einfach,klaglos,mühelos,problemlos,problemlosen,reibungslos,simpel,störungsfrei,umstandslos,unaufwändig": [
@@ -637,7 +657,7 @@
     "🥶",
     "🧊"
   ],
-  "emoji": ["😂"],
+  "emoji,smiley,smileys": ["😂"],
   "enorm,extrem,gewaltig,gigantisch,groß,immens,imposant,krass,mächtig,riesig": [
     "👐",
     "📏"
@@ -645,6 +665,7 @@
   "er,ihm,ihn,sein,seine,seinen,seiner,seins": ["👉", "👴"],
   "erde,globus,terra,welt,world": ["🌍", "🌎", "🌏", "🌐"],
   "ernst,ernsthaft,ernsthaftigkeit,humorlosigkeit,seriös": ["😐", "😕", "😠"],
+  "etwas,gering,klein,wenig": ["🤏", "📏"],
   "federvieh,piepmatz,vogel,vögel": [
     "🐓",
     "🐔",
@@ -661,7 +682,7 @@
   ],
   "felsen,felsgestein,gestein,stein": ["🗿", "🪨"],
   "feminin,frau,frauen,fraulich,gebieterin,mädchen,mädel,olle,weib,weiblich": ["♀", "👩"],
-  "ficke,fuck,fucking,verfickt": ["🍆", "🍑", "💦", "😩", "🤤"],
+  "ficke,ficken,fuck,fucking,geschlechtsverkehr,sex,verfickt": ["🍆", "🍑", "💦", "😩", "🤤"],
   "fieber,pyrexie,thermometer": ["🌡", "🤒"],
   "filmlänge,laufzeit,spieldauer,spielzeit,vorführdauer": ["⏳", "🎥", "📏"],
   "filmtheater,filmvorschau,kino,kintopp,lichtspiel,lichtspielhaus,lichtspieltheater": [
@@ -730,12 +751,9 @@
     "🪴"
   ],
   "gegangen,gehe,gehen,hingehen,latschen": ["👣", "🚶"],
+  "gehör,geört,horchen,hören,hört,lauschen,ohr,ohren": ["👂", "🙉"],
   "gemalt,gemälde,kunst,malen,maler,zeichnen,zeichner,zeichnet": ["‍🎨", "✏", "✒", "📐", "🖍"],
-  "geschrieben,heruntergeschrieben,herunterschreiben,niederschreiben,schreiben": [
-    "✍️",
-    "📝",
-    "🖋"
-  ],
+  "gericht,richten,richter,urteilen,zurecht": ["🧑‍⚖️", "‍⚖️"],
   "gestellt,stand,stehen,steht,stünde": ["🧍"],
   "gleich": ["⚖️", "😐"],
   "google": ["🔍"],
@@ -744,11 +762,12 @@
   "grünanlage,park,parkanlage,stadtgarten,stadtpark": ["🌲", "🌳", "🏞"],
   "gummi,kondom,lümmeltüte,pariser,präser,präservativ,verhüterli": ["🍆", "🎈"],
   "habe,haben,hast,hatte,hatten": ["😊", "🙌", "🤝"],
+  "harry,potter": ["⚡️", "🪄", "🧙"],
+  "herum,um": ["🔁"],
   "hilfe,sos": ["🆘"],
   "hintern": ["🍑"],
   "holland,niederlande,niederlanden": ["🇳🇱", "🧀"],
   "homofürst,schwanzlutscher,wichser,wixer,wixxer": ["🍆", "💦", "🖕", "😫"],
-  "horchen,hören,hört,lauschen,ohr,ohren": ["👂", "🙉"],
   "hure,hurensohn": ["👠", "👩‍👦", "💃", "💶", "🤬"],
   "ich,individualität,individuell,mich,mir,körper": ["🙋", "🧍"],
   "ihr,ihre,ihrem,ihren,ihrer,ihres,sie": ["👉", "👩"],
@@ -819,7 +838,8 @@
   "luxemburg": ["🇱🇺"],
   "mangelhaft": ["5️⃣"],
   "mario": ["🍄", "🎮"],
-  "maske,maskenpflicht,schminkraum": ["👹", "👺", "😷"],
+  "teufel,teuflisch,verteufeln": ["👹", "👺", "😈"],
+  "maske,maskenpflicht": ["😷"],
   "messer": ["⚔", "🍴", "🍽", "🔪", "🗡"],
   "metal,metall": ["📎", "🔗", "🔧", "🖇", "🤘"],
   "mexikanisch,mexiko": ["🇲🇽", "🌮", "🌯", "🪅", "🫔"],
@@ -849,6 +869,7 @@
     "🥈",
     "🥉"
   ],
+  "passiv": ["🙂"],
   "portugal": ["🇵🇹"],
   "quelle,soße": ["ℹ", "🍝", "📖"],
   "rufnummer,telefonnummer": [
@@ -902,6 +923,9 @@
   "trans,transsexualität,transsexuell": ["⚧️", "🏳‍🌈", "🏳️‍⚧️"],
   "trump": ["🎺", "💩", "🚽"],
   "tür,türe,türen": ["🔑", "🚪"],
+  "unangebracht,unangemessen,unbrauchbar,ungeeignet,ungünstig,unpassend,untauglich,unzweckmäßig,widrig,inadäquat": [
+    "🙅"
+  ],
   "unfall,unfallstelle,unfallstellen,unfälle,unglück": [
     "⛑",
     "🏥",
