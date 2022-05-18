@@ -17,6 +17,8 @@
 - _Leet_ for **13375p34k**
   - _advanced_: boolean - a more advanced leetspeak for the most elite of the elitists
   - _reverse_: boolean - whether or not to translate **from** or **to** _Leet_
+- _Mirror_ for **ɈxɘɈ bɘɿoɿɿiM**
+  - _reverse_: boolean - whether or not to translate **from** or **to** _Mirror_
 - _Mock_ for **ThE MoCkInG SpOnGeBoB MeMe tExT**
   - _startLowerCase_: boolean - start with a lowercase or an uppercase letter
 - _Morse_ for **-- --- .-. ... . -.-. --- -.. .**
