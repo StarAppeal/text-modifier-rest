@@ -12,7 +12,7 @@ export default function modify(request: ModifierRequest) {
   request.text
     .split("")
     .reverse()
-    .forEach(function (c) {
+    .forEach(c => {
       result += params.reverse
         ? getKeyByValue(c, australiaMap)
         : australiaMap[c as keyof typeof australiaMap] ?? c;
