@@ -1,5 +1,5 @@
 import ModifierRequest from "@/constants/interfaces/ModifierRequest";
-import australiaMap from "../../constants/maps/australia";
+import mirrorMap from "../../constants/maps/mirror";
 import { getKeyByValue } from "../../globals/modifierHelpers";
 
 const DEFAULT_PARAMS = {
@@ -14,8 +14,8 @@ export default function modify(request: ModifierRequest) {
     .reverse()
     .forEach(c => {
       result += params.reverse
-        ? getKeyByValue(c, australiaMap)
-        : australiaMap[c as keyof typeof australiaMap] ?? c;
+        ? getKeyByValue(c, mirrorMap)
+        : mirrorMap[c as keyof typeof mirrorMap] ?? c;
     });
   return result;
 }

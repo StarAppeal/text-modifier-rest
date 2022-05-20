@@ -5,6 +5,7 @@ import emoji from "./emoji/config";
 import fancy from "./fancy/config";
 import fraktur from "./fraktur/config";
 import leet from "./leet/config";
+import mirror from "./mirror/config";
 import mock from "./mock/config";
 import morse from "./morse/config";
 import ogre from "./ogre/config";
@@ -21,6 +22,7 @@ export default {
   [fancy.value]: fancy,
   [fraktur.value]: fraktur,
   [leet.value]: leet,
+  [mirror.value]: mirror,
   [mock.value]: mock,
   [morse.value]: morse,
   [ogre.value]: ogre,
