@@ -4,6 +4,7 @@ import cummy from "./cummy/config";
 import emoji from "./emoji/config";
 import fancy from "./fancy/config";
 import fraktur from "./fraktur/config";
+import italic from "./italic/config";
 import leet from "./leet/config";
 import mirror from "./mirror/config";
 import mock from "./mock/config";
@@ -21,6 +22,7 @@ export default {
   [emoji.value]: emoji,
   [fancy.value]: fancy,
   [fraktur.value]: fraktur,
+  [italic.value]: italic,
   [leet.value]: leet,
   [mirror.value]: mirror,
   [mock.value]: mock,

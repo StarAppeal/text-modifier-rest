@@ -25,12 +25,12 @@ async function compute(
   console.log(`Received call to ${url}`);
   const modifierFunction = modifiers[url].function;
   const oldTime = new Date().getTime();
-  const modifyd = await modifierFunction(req);
+  const modified = await modifierFunction(req);
   const time = new Date().getTime() - oldTime;
-  console.log(`Response is: ${modifyd}`);
+  console.log(`Response is: ${modified}`);
   console.log(`Time: ${time}`);
 
-  const result = { text: modifyd, time };
+  const result = { text: modified, time };
   return result;
 }
 
