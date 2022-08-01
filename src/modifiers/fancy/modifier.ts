@@ -1,10 +1,7 @@
 import ModifierRequest from "@/constants/interfaces/ModifierRequest";
-import fancy from "../../constants/maps/fancy";
+import fancyMap from "../../constants/maps/fancy";
+import { defaultModifier } from '../../globals/modifierHelpers';
 
 export default function modify(request: ModifierRequest) {
-  let result = "";
-  request.text.split("").forEach((c) => {
-    result += fancy[c as keyof typeof fancy] ?? c;
-  });
-  return result;
+  return defaultModifier(request.text, fancyMap);
 }
