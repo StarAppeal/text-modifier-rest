@@ -41,11 +41,27 @@ function insertLinks(textParts: string[], linksToInsert: string[]) {
 }
 
 function getKeyByValue(value: string, map: Record<string, string>) {
-  return Object.keys(map).find((key) => map[key] === value);
+  return Object.keys(map).find((key) => map[key] === value) ?? value;
 }
 
 function getRandomNumber(max: number): number {
   return Math.floor(Math.random() * max);
 }
 
-export { getKeyByValue, getLinks, extractLinks, insertLinks, getRandomNumber };
+const defaultModifier = (requestText: string, map: Record<string, string>, reverseBeforeModifying = false, reverse = false) => {
+  const text = reverseBeforeModifying ? [...requestText].reverse().join("") : requestText;
+  let result = "";
+  text.split("").forEach(c => {
+    result += reverse ? getKeyByValue(c, map) : map[c] ?? c;
+  });
+  return result;
+};
+
+export {
+  getKeyByValue,
+  getLinks,
+  extractLinks,
+  insertLinks,
+  getRandomNumber,
+  defaultModifier,
+};

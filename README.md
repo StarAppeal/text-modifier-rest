@@ -14,6 +14,7 @@
 - _Fancy_ for **𝒶 𝓃𝒾𝒸ℯ 𝒾𝓉𝒶𝓁𝒾𝒸 𝒻ℴ𝓃𝓉**
 - _Fraktur_ for **𝔱𝔥𝔦𝔰 𝔬𝔩𝔡 𝔊𝔢𝔯𝔪𝔞𝔫 𝔣𝔬𝔫𝔱**
   - _bold_: boolean - 𝖇𝖔𝖑𝖉 or 𝔫𝔬𝔱 𝔟𝔬𝔩𝔡
+- _Italic_ for **𝘴𝘭𝘢𝘯𝘵𝘦𝘥 𝘵𝘦𝘹𝘵**
 - _Leet_ for **13375p34k**
   - _advanced_: boolean - a more advanced leetspeak for the most elite of the elitists
   - _reverse_: boolean - whether or not to translate **from** or **to** _Leet_
