@@ -28,7 +28,7 @@
     "@types/string-similarity": "^4.0.0",
     "braille": "^1.1.0",
     "concurrently": "^6.5.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^2.0.15",
     "string-similarity": "^4.0.4",
     "translatte": "^3.0.0",
