@@ -6,6 +6,7 @@
 
 - _Australia_ for **ʇxǝʇ uʍop ǝpᴉsdn**
   - _reverse_: boolean - whether or not to translate **from** or **to** _Australia_
+- _Bold_ for **𝗕𝗼𝗹𝗱** text
 - _Braille_ for **⠃⠗⠁⠊⠇⠇⠑⠼**
   - _reverse_: boolean - whether or not to translate **from** or **to** _Braille_
 - _Cummy_ for just the same text
@@ -27,6 +28,7 @@
 - _Ogre_ for **Meddl Loide**
 - _owo_ for **aww youw owo nyeeds**
   - _nuzzle_: boolean - add **schmiegt an** to the end of the text. More language support to come.
+- _Strikethrough_ for **s̶t̶r̶u̶c̶k̶ ̶t̶h̶r̶o̶u̶g̶h̶** text
 - _Tiny_ for **ᵛᵉʳʸ ˢᵐᵃˡˡ ᵗᵉˣᵗ**
 - _Translate_ for **bad texts have been translated**
   - _numberTranslations_: number - number of languages the text is being translated to before translating back to German. More language support to come.
