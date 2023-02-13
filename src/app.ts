@@ -12,6 +12,7 @@ application.use((_req, res, next) => {
   );
   next();
 });
+
 application.use(express.json());
 application.use("/modifiers", modifiers);
 
