@@ -10,7 +10,7 @@ Object.keys(modifiers).forEach((modifierKey: keyof typeof modifiers) => {
     req: express.Request,
     res: express.Response
   ) {
-    res.status(200).send(await compute(req.body, req.url.substring(1)));
+    res.status(200).send(await compute(req.body, req.url.substring(1).toLowerCase()));
   });
 });
 
@@ -25,14 +25,13 @@ async function compute(
 ): Promise<ModifierResponse> {
   console.log("Received call to", url);
   const modifierFunction = modifiers[url].function;
-  const oldTime = new Date().getTime();
+  const oldTime = Date.now();
   const modified = await modifierFunction(req);
-  const time = new Date().getTime() - oldTime;
+  const time = Date.now() - oldTime;
   console.log("Response is", modified);
   console.log("Time was", time);
 
-  const result = { text: modified, time };
-  return result;
+  return { text: modified, time };
 }
 
 export default router;

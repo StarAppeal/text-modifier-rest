@@ -22,7 +22,7 @@ fs.writeFileSync(
 
 function transform(input) {
   const result = {};
-  for (const [key, value] of Object.entries(input)) {
+  for (const [key] of Object.entries(input)) {
     const keys = key.split(",");
     keys.forEach((isolatedKey) => {
       result[isolatedKey] = input[key].concat(result[isolatedKey] || []);
