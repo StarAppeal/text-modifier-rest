@@ -2,6 +2,7 @@ import ModifierResponse from "@/constants/interfaces/ModifierResponse";
 import ModifierRequest from "@/constants/interfaces/ModifierRequest";
 import express from "express";
 import modifiers from "../modifiers";
+
 const router = express.Router();
 
 Object.keys(modifiers).forEach((modifierKey: keyof typeof modifiers) => {
