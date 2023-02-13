@@ -1,4 +1,5 @@
 import australia from "./australia/config";
+import bold from "./bold/config";
 import braille from "./braille/config";
 import cummy from "./cummy/config";
 import emoji from "./emoji/config";
@@ -17,6 +18,7 @@ import zalgo from "./zalgo/config";
 
 export default {
   [australia.value]: australia,
+  [bold.value]: bold,
   [braille.value]: braille,
   [cummy.value]: cummy,
   [emoji.value]: emoji,
