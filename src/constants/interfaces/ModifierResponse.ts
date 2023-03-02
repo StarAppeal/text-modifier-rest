@@ -1,6 +1,6 @@
 interface ModifierRequest {
-  text: string;
-  time: number;
+    text: string
+    time: number
 }
 
-export default ModifierRequest;
+export default ModifierRequest

@@ -1,11 +1,11 @@
 interface LinkInstance {
-  index: number;
-  length: number;
+    index: number
+    length: number
 }
 
 interface LinkExtraction {
-  textParts: string[];
-  extractedLinks: string[];
+    textParts: string[]
+    extractedLinks: string[]
 }
 
-export { LinkInstance, LinkExtraction };
+export { LinkInstance, LinkExtraction }
