@@ -1,6 +1,6 @@
 enum ParamType {
-  BOOLEAN,
-  NUMBER,
+    BOOLEAN,
+    NUMBER,
 }
 
-export default ParamType;
+export default ParamType
