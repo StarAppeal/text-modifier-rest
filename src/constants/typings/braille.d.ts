@@ -1,1 +1,1 @@
-declare module "braille";
+declare module 'braille'
