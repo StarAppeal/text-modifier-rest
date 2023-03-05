@@ -1,1 +1,1 @@
-declare module "translatte";
+declare module 'translatte'
